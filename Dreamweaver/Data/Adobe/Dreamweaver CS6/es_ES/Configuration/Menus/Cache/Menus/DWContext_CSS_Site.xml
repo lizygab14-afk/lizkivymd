@@ -1,0 +1,7 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Obtener" arguments="'get','csspanel'" file="Menus/MM/Site_File.htm" id="DWContext_CSS_Get" />
+<menuitem name="_Proteger" arguments="'checkout','csspanel'" file="Menus/MM/Site_File.htm" id="DWContext_CSS_Checkout" />
+<menuitem name="_Colocar" arguments="'put','csspanel'" file="Menus/MM/Site_File.htm" id="DWContext_CSS_Put" />
+<menuitem name="Despro_teger" arguments="'checkin','csspanel'" file="Menus/MM/Site_File.htm" id="DWContext_CSS_Checkin" />
+<menuitem name="De_shacer proteger" arguments="'undocheckout','csspanel'" file="Menus/MM/Site_File.htm" id="DWContext_CSS_UndoCheckout" />
+<menuitem name="_Localizar en sitio" arguments="'findlocal','csspanel'" file="Menus/MM/Site_File.htm" id="DWContext_CSS_LocateInSite" />

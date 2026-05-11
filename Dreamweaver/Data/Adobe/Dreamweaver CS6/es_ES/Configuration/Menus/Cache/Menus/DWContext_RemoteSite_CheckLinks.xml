@@ -1,0 +1,2 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="Todo el sitio" arguments="'site'" file="Menus/MM/Site_CheckLinks.htm" id="DWContext_RemoteSite_CheckLinks_EntireSite" />

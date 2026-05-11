@@ -1,0 +1,34 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_ID..." command="dw.getDocumentDOM().editAttribute('ID')" enabled="true" id="DWContext_Image_IDAttr" />
+<menuitem name="_Archivo de origen..." command="dw.getDocumentDOM().editAttribute('SRC')" enabled="true" id="DWContext_Image_SourceAttr" />
+<menu name="_Alinear" id="DWContext_Image_Align"></menu>
+<menu name="Estilos _CSS" id="DWContext_Image_CustomStyle"></menu>
+<separator />
+<menu name="_Plantillas" id="DWContext_Templates_2"></menu>
+<separator />
+<menuitem name="_Navegador de código..." command="dw.popupCodeNavigator()" enabled="dw.canPopupCodeNavigator()" domRequired="TRUE" id="DWContext_Image_CodeNavigator" />
+<menuitem name="_Editar etiqueta..." key="Shift+F5" file="Menus/MM/EditTag.htm" id="DWContext_Image_EditTag" />
+<menuitem name="Quick Tag _Editor..." file="Menus/MM/Context_QTE_Dynamic.htm" id="DWContext_Image_InsertHTML" dynamic="true" />
+<menuitem name="_Crear vínculo..." file="Menus/MM/Modify_Hyperlink.htm" id="DWContext_Image_MakeLink" />
+<menuitem name="_Quitar vínculo" command="dw.getDocumentDOM().removeLink()" enabled="dw.getDocumentDOM().getLinkHref().length > 0" id="DWContext_Image_RemoveLink" />
+<menuitem name="_Abrir página vinculada" arguments="'noFocus'" file="Menus/MM/Open_Linked_Page.htm" id="DWContext_Image_OpenLinkedPage" />
+<separator />
+<menuitem name="_Actualizar desde original" file="Menus/MM/SmartObject_ContextMenuItem_DesignView.htm" id="DWContext_Image_UpdateFromOriginal" />
+<menuitem name="Restablecer ta_maño" file="Menus/MM/RefreshSize_ContextMenuItem_DesignView.htm" id="DWContext_Image_RefreshSize" />
+<menuitem name="Restablecer tamaño original" file="Menus/MM/RefreshSizeToOriginal_ContextMenuItem_DesignView.htm" id="DWContext_Image_RefreshSize" />
+<menuitem name="_Optimizar..." command="dw.getDocumentDOM().optimizeImage()" id="DWContext_Image_OptimizeInFW" />
+<menuitem name="C_rear imagen" file="Menus/MM/Primary_ImageEditor_Dynamic.htm" id="DWContext_Image_EditImage" />
+<menu name="Edi_tar con" id="DWContext_Image_EditWith"></menu>
+<menu name="Edi_tar original con" id="DWContext_ImageSource_EditWith"></menu>
+<menuitem name="Agregar a imágenes _favoritas" command="dw.assetPalette.addToFavoritesFromDocument()" enabled="site.getCurrentSite() != '' && (dw.getDocumentDOM().getSelectedNode().getAttribute('src') != null && dw.getDocumentDOM().getSelectedNode().getAttribute('src') != '')" id="DWContext_Image_AddToFavorites" />
+<separator />
+<menuitem name="_Obtener" arguments="'get','docSelection'" file="Menus/MM/Site_File.htm" id="DWContext_Image_Get" />
+<menuitem name="_Colocar" arguments="'put','docSelection'" file="Menus/MM/Site_File.htm" id="DWContext_Image_Put" />
+<menuitem name="_Localizar en sitio" arguments="'findlocal','docSelection'" file="Menus/MM/Site_File.htm" id="DWContext_Image_LocateInSite" />
+<separator />
+<menuitem name="_Cortar" command="MM.event.notify('','dw.clipCut()')" enabled="dw.canClipCut()" id="DWContext_Image_Cut" />
+<menuitem name="Co_piar" command="MM.event.notify('','dw.clipCopy()')" enabled="dw.canClipCopy()" id="DWContext_Image_Copy" />
+<menuitem name="_Pegar" command="MM.event.notify('','dw.clipPaste()')" enabled="dw.canClipPaste()" id="DWContext_Image_Paste" />
+<separator />
+<menuitem name="Design _Notes..." file="Menus/MM/Design Notes Launch Sel.htm" id="DWContext_Image_DesignNotes" />
+<menuitem name="Prop_iedades" command="dw.showProperties()" enabled="true" id="DWContext_Image_Properties" />

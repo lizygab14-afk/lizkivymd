@@ -1,0 +1,7 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="Cambiar acción por Colocar" command="dw.syncDialog.markPut()" enabled="dw.syncDialog.canMarkPut()" id="DWContextSync_Put" />
+<menuitem name="Cambiar acción por Obtener" command="dw.syncDialog.markGet()" enabled="dw.syncDialog.canMarkGet()" id="DWContextSync_Get" />
+<menuitem name="Cambiar acción por Eliminar" command="dw.syncDialog.markDelete()" enabled="dw.syncDialog.canMarkDelete()" id="DWContextSync_Delete" />
+<menuitem name="Omitir selección" command="dw.syncDialog.markIgnore()" enabled="dw.syncDialog.canMarkIgnore()" id="DWContextSync_Ignore" />
+<menuitem name="Marcar como sincronizado" command="dw.syncDialog.markSynced()" enabled="dw.syncDialog.canMarkSynced()" id="DWContextSync_Synced" />
+<menuitem name="Comparar locales y remotos" command="dw.syncDialog.compare()" enabled="dw.syncDialog.canCompare()" id="DWContextSync_Compare" />

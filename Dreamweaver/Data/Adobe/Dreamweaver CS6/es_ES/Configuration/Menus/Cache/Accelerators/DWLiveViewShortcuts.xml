@@ -1,0 +1,12 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<shortcut key="Opt+Left"	platform="win"	arguments="'back_button'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Back_Win"/>
+<shortcut key="Browser_Back" platform="win"	arguments="'back_button'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Back_ExtendedKeyboards"/>
+<shortcut key="Opt+Right"	platform="win"	arguments="'forward_button'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Forward_Win"/>
+<shortcut key="Browser_Forward" platform="win" arguments="'forward_button'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Forward_ExtendedKeyboards"/>
+<shortcut key="Opt+Home"	platform="win"	arguments="'home_button'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Home_Win"/>
+<shortcut key="Browser_Home" platform="win"	arguments="'home_button'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Home_ExtendedKeyboards"/>
+<shortcut key="F5"			platform="win"	arguments="'refresh_button'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Refresh_Win"/>
+<shortcut key="Cmd+R"						arguments="'refresh_button'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Refresh"/>
+<shortcut key="Browser_Refresh" platform="win" arguments="'refresh_button'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Refresh_ExtendedKeyboards"/>
+<shortcut key="Esc"							arguments="'stop_button'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Stop"/>
+<shortcut key="Browser_Stop" platform="win"	arguments="'stop_button'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_LiveViewBrowser_Stop_ExtendedKeyboards"/>

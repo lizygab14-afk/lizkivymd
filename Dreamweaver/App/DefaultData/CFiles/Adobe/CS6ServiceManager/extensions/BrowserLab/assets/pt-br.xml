@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="pt_BR" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<str name="signInMeerMeerLabel" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Entrar com ID do Adobe </val>
+	</str>
+	<str name="signOutMeerMeerLabel" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Sair</val>
+	</str>
+	<str name="previewInMeerMeerBtn" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Visualização</val>
+	</str>
+	<str name="previewWithLocalFilesOpt" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Local/rede</val>
+	</str>
+	<str name="previewWithTestingServerOpt" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Servidor</val>
+	</str>
+	<str name="previewWithPauseLiveViewOpt" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Visualização dinâmica pausada</val>
+	</str>
+	<str name="browserDisconnectedStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Não conectado ao BrowserLab</val>
+	</str>
+	<str name="browserConnectedStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Conectado ao BrowserLab</val>
+	</str>
+	<str name="browserOfflineStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>As suas preferências de rede nos impedem de estabelecer comunicação com o servidor</val>
+	</str>	
+	<str name="cancelPreviewMeerMeerBtn" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Cancelar visualização</val>
+	</str>
+	<str name="uploadingFilesStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Carregando arquivos...</val>
+	</str>
+	<str name="downloadingScreenShotStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Baixando capturas de tela ( {0} de {1} )</val>
+	</str>
+	<str name="connectingToMeerMeerServiceMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Iniciando o BrowserLab...</val>
+	</str>
+	<str name="requestingScreenShotStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Solicitando capturas de tela...</val>
+	</str>
+	<str name="authenticatingStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Autenticando...</val>
+	</str>
+	<str name="completedPreviewMeerMeerBtn" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Concluído.</val>
+	</str>
+	<str name="completedPreviewStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Visualizando {0}</val>
+	</str>
+	<str name="dirtyPreviewStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Clique em Visualizar para atualizar {0}</val>
+	</str>
+	<str name="dirtyPreviewStatusNotInDWMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Visualizando {0}</val>
+	</str>
+	<str name="uploadingLocalContentStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Carregando conteúdo local...</val>
+	</str>
+	<str name="uploadingDepFileStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Carregando arquivo {0}</val>
+	</str>
+	<str name="failedToUploadFilesToTestingServerErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Falha ao carregar arquivos</val>
+	</str>
+	<str name="failedToUploadFilesToMeerMeerServiceErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Falha ao carregar conteúdo</val>
+	</str>
+	<str name="failedToReadLocalFilesErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Falha ao ler conteúdo</val>
+	</str>
+	<str name="failedToConnectToMeerMeerServiceErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Tempo esgotado, falha ao conectar o BrowserLab</val>
+	</str>
+	<str name="failedToAuthenticateToMeerMeerServiceErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Tempo esgotado, falha ao autenticar no BrowserLab</val>
+	</str>
+	<str name="failedToUploadDepFilesToMeerMeerServiceErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Falha ao carregar arquivos dependentes no BrowserLab</val>
+	</str>
+	<str name="sessionExpiredReloginErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>A sessão expirou, consulte o navegador</val>
+	</str>
+	<str name="BCE300" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Ocorreu um erro na captura de tela, consulte o navegador para obter mais detalhes</val>
+	</str>
+	<str name="BCE400" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Ocorreu um erro de cálculo, consulte o navegador para obter mais detalhes</val>
+	</str>
+	<str name="BCE500" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Ocorreu um erro de servidor ou de rede, consulte o navegador para obter detalhes</val>
+	</str>
+	<str name="BCE600" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Visualização cancelada</val>
+	</str>
+	<str name="BCE700" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Ocorreu um erro na captura de tela, consulte o navegador para obter mais detalhes</val>
+	</str>
+	<str name="BCE800" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>A versão não corresponde, atualize-a</val>
+	</str>
+	<str name="BCE900" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Serviço BrowserLab indisponível</val>
+	</str>
+	<str name="menuPermissionSettings" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Configurações da Permissão...</val>
+	</str>		
+	<str name="menuAbout" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Sobre o BrowserLab</val>
+	</str>
+	<str name="menuHelp" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Ajuda do BrowserLab</val>
+	</str>
+	<str name="okBtn" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>OK</val>
+	</str>
+	<str name="menuAboutVersion" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Versão {0}</val>
+	</str>
+   <str name="PureMVCAttribution" translate="yes">
+      <propset>
+         <prop><propkey>status</propkey><propval>final</propval></prop>
+      </propset>
+      <val>Este software usa o &lt;a href="http://trac.puremvc.org/PureMVC/wiki/ManifoldProject/License"&gt;PureMVC Framework&lt;/a&gt; licenciado sob licença do Creative Commons Attribution 3.0</val>
+   </str>	
+	<str name="AdobeCopyright_Line1" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Copyright © 2010 Adobe Systems Inc</val>
+	</str>
+	<str name="AdobeCopyright_Line2" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Todos os direitos reservados</val>
+	</str>
+	<str name="preparingForPreviewStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Preparando visualização...</val>
+	</str>	
+	<str name="meerMeerServiceHelpURL" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>http://www.adobe.com/go/lr_abl_br</val>
+	</str>
+	<str name="emailNotVerifiedMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>Seu endereço de e-mail ainda não foi verificado</val>
+	</str>				
+	<str name="touNotAcceptedMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>Você não aceitou os Termos de uso</val>
+	</str>				
+	<str name="subscriptionExpiredMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>Sua assinatura expirou</val>
+	</str>			
+	<str name="subscriptionDisabledMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>Sua assinatura foi desativada</val>
+	</str>				
+	<str name="noSubscriptionNotProvisionedMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>Não há assinatura válida, configure seu acesso</val>
+	</str>				
+	<str name="subscriptionExpNotProvisionedMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>Sua assinatura expirou, configure seu acesso</val>
+	</str>				
+	<str name="noSubscriptionMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>Não há assinatura válida, faça logon com um usuário diferente</val>
+	</str>				
+	<str name="signInMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>Faça login para acessar BrowserLab</val>
+	</str>				
+</asf>

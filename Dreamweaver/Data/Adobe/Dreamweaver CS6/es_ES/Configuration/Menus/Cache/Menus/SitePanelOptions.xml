@@ -1,0 +1,5 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menu name="_Archivo" id="SitePanelOptions_FileMenu"></menu>
+<menu name="_Edición" id="SitePanelOptions_EditMenu"></menu>
+<menu name="Ve_r" id="SitePanelOptions_ViewMenu"></menu>
+<menu name="_Sitio" id="SitePanelOptions_SiteMenu"></menu>

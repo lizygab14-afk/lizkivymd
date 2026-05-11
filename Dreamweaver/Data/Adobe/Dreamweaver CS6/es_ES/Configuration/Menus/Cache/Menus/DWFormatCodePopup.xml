@@ -1,0 +1,6 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Aplicar formato de origen" file="Commands/Apply Source Formatting.htm" id="DWPopup_ApplySourceFormat" />
+<menuitem name="A_plicar formato de origen a la selección" file="Commands/ApplySourceFormatSelection.htm" id="DWPopup_ApplySourceFormatSelection" />
+<separator />
+<menuitem name="Configuración de formato de código..." command="dw.showPreferencesDialog('html format')" enabled="true" id="DWPopup_CodeFormatSettings" />
+<menuitem name="Editar bibliotecas de etiquetas..." command="dw.tagLibrary.showTagLibraryEditor()" enabled="true" id="DWPopup_TagLibraries" />

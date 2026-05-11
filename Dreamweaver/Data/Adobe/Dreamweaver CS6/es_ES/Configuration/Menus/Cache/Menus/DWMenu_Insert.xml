@@ -1,0 +1,36 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="Eti_queta..." key="Cmd+E" command="if ((dw.getDocumentDOM().getView() == 'design') || (dw.getDocumentDOM().getView() == 'split' && dw.getFocus()=='document')) {dw.getDocumentDOM().setView('split');dw.setFocus('textView')} dw.showTagChooser()" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && (dw.getFocus() != 'browser') && (dw.getDocumentDOM() != null && (dw.getDocumentDOM().getParseMode() == 'html' || dw.getDocumentDOM().getParseMode() == 'xml'))" id="DWMenu_Insert_Tag" />
+<menuitem name="_Imagen" key="Cmd+Opt+I" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && (dw.getFocus() != 'browser') && (dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html')" file="Common/Image.htm" id="DWMenu_Insert_Image" isobject="true" />
+<menu name="Objetos de ima_gen" id="DWMenu_Insert_InteractiveImage"></menu>
+<menu name="_Media"  enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_Media"></menu>
+<menuitem name="_Consultas de medios..." command="dw.runCommand('Media Query Manager')" enabled="dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html';" domRequired="true" id="DWMenu_Insert_MediaQueries" />
+<separator />
+<menuitem name="_Tabla" key="Cmd+Opt+T" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html' && !dw.getDocumentDOM().getShowLayoutView()" file="Common/Table.htm" id="DWMenu_Insert_Table" isobject="true" />
+<menu name="Objetos de t_abla" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_TableTags"></menu>
+<menu name="Objetos de _diseño" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_LayoutObjects"></menu>
+<separator />
+<menu name="_Formulario" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_FormObject"></menu>
+<separator />
+<menuitem name="H_ipervínculo" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" file="Common/Hyperlink.htm" id="DWMenu_Insert_Hyperlink" isobject="true" />
+<menuitem name="_Vínculo de correo electrónico" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" file="Common/E-Mail Link.htm" id="DWMenu_Insert_Email" isobject="true" />
+<menuitem name="Anclaje con _nombre" key="Cmd+Opt+A" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" file="Common/Anchor.htm" id="DWMenu_Insert_NamedAnchor" isobject="true" />
+<menuitem name="_Fecha" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" file="Common/Date.htm" id="DWMenu_Insert_Date" isobject="true" />
+<menuitem name="Ser_ver-Side Include" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" file="Script/SSI.htm" id="DWMenu_Insert_SSI" isobject="true" />
+<menuitem name="C_omentario" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" file="Text/Comment.htm" id="DWMenu_Insert_Comment" isobject="true" />
+<separator />
+<menu name="_HTML" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_HTML"></menu>
+<menu name="_Objetos de plantilla" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_TemplateObjects"></menu>
+<menu name="Fragmentos _recientes" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_RecentSnippets"></menu>
+<separator />
+<menuitem id="DWMenu_Insert_Widget" name="_Widget..." enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" command="dw.getDocumentDOM().insertObject('insertOAWidget');" />
+<menu id="DWMenu_Insert_Spry" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" name="_Spry"></menu>
+<menu name="jQuery Mobile" id="DW_Insert_jQuery"></menu>
+<menu name="_InContext Editing" id="DWMenu_Insert_InContext_Editing"></menu>
+<menu name="Objetos de _datos" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_ApplicationObjects" showif="!_SERVERMODEL_ASPNET,!_SERVERMODEL_JSP,!_SERVERMODEL_ASP_JS"></menu>
+<menu name="Objetos _ASP" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_ASPObjects" showif="_SERVERMODEL_ASP,!_SERVERMODEL_ASP_JS"></menu>
+<menu name="Objetos de _ColdFusion" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_CFObjects" showif="_SERVERMODEL_CFML"></menu>
+<menu name="Objetos _PHP" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_PHPObjects" showif="_SERVERMODEL_PHP"></menu>
+<menu name="Objetos _XSLT" enabled="dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()" id="DWMenu_Insert_XSLTObjects" showif="_SERVERMODEL_XSLT"></menu>
+<separator />
+<menuitem name="_Personalizar favoritos..." command="dw.runCommand('Customize Favorites.htm');" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && true" domRequired="false" id="DWMenu_Insert_CustomizeFavorites" />
+<menuitem name="_Obtener más objetos..." command="dwscripts.browseURL('http://www.adobe.com/go/dreamweaver_exchange',2)" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && true" id="DWMenu_Insert_GetMoreObjects" />

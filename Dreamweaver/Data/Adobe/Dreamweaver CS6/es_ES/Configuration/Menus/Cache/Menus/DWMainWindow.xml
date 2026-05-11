@@ -1,0 +1,11 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menu name="_Archivo" id="DWMenu_File"></menu>
+<menu name="_Edición" id="DWMenu_Edit"></menu>
+<menu name="Ve_r" id="DWMenu_View"></menu>
+<menu name="_Insertar" id="DWMenu_Insert"></menu>
+<menu name="_Modificar" id="DWMenu_Modify"></menu>
+<menu name="F_ormato" id="DWMenu_Text"></menu>
+<menu name="_Comandos" id="DWMenu_Commands"></menu>
+<menu name="_Sitio" id="DWMenu_Site"></menu>
+<menu name="_Ventana" id="DWMenu_Window"></menu>
+<menu name="Ay_uda" id="DWMenu_Help"></menu>

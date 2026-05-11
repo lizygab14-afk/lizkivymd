@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="ko_KR" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<str name="signInMeerMeerLabel" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Adobe ID 로그인</val>
+	</str>
+	<str name="signOutMeerMeerLabel" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>로그아웃</val>
+	</str>
+	<str name="previewInMeerMeerBtn" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>미리 보기</val>
+	</str>
+	<str name="previewWithLocalFilesOpt" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>로컬/네트워크</val>
+	</str>
+	<str name="previewWithTestingServerOpt" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>서버</val>
+	</str>
+	<str name="previewWithPauseLiveViewOpt" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>일시 정지된 라이브 뷰</val>
+	</str>
+	<str name="browserDisconnectedStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>BrowserLab에 연결되지 않음</val>
+	</str>
+	<str name="browserConnectedStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>BrowserLab에 연결됨</val>
+	</str>
+	<str name="browserOfflineStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>네트워크 환경 설정이 서버와 통신할 수 없도록 설정되었습니다.</val>
+	</str>	
+	<str name="cancelPreviewMeerMeerBtn" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>미리 보기 취소</val>
+	</str>
+	<str name="uploadingFilesStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>파일 업로드 중...</val>
+	</str>
+	<str name="downloadingScreenShotStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>스크린 샷 다운로드 중({0}/{1})</val>
+	</str>
+	<str name="connectingToMeerMeerServiceMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>BrowserLab 실행 중...</val>
+	</str>
+	<str name="requestingScreenShotStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>스크린 샷 요청 중...</val>
+	</str>
+	<str name="authenticatingStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>인증 중...</val>
+	</str>
+	<str name="completedPreviewMeerMeerBtn" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>완료됨</val>
+	</str>
+	<str name="completedPreviewStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>{0} 미리 보기하는 중</val>
+	</str>
+	<str name="dirtyPreviewStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>{0}을(를) 새로 고치려면 미리 보기를 클릭하십시오.</val>
+	</str>
+	<str name="dirtyPreviewStatusNotInDWMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>{0} 미리 보기하는 중</val>
+	</str>
+	<str name="uploadingLocalContentStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>로컬 내용 업로드 중...</val>
+	</str>
+	<str name="uploadingDepFileStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>파일 {0} 업로드 중</val>
+	</str>
+	<str name="failedToUploadFilesToTestingServerErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>파일 업로드에 실패했습니다.</val>
+	</str>
+	<str name="failedToUploadFilesToMeerMeerServiceErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>내용 업로드에 실패했습니다.</val>
+	</str>
+	<str name="failedToReadLocalFilesErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>내용 읽기에 실패했습니다.</val>
+	</str>
+	<str name="failedToConnectToMeerMeerServiceErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>제한 시간이 초과되어 BrowserLab 연결에 실패했습니다.</val>
+	</str>
+	<str name="failedToAuthenticateToMeerMeerServiceErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>제한 시간이 초과되어 BrowserLab 인증에 실패했습니다.</val>
+	</str>
+	<str name="failedToUploadDepFilesToMeerMeerServiceErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>독립 파일을 BrowserLab에 업로드하는 데 실패했습니다.</val>
+	</str>
+	<str name="sessionExpiredReloginErrMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>세션이 만료되었습니다. 브라우저를 참조하십시오.</val>
+	</str>
+	<str name="BCE300" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>스크린 샷 오류가 발생했습니다. 자세한 내용을 보려면 브라우저를 참조하십시오.</val>
+	</str>
+	<str name="BCE400" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>계정 오류가 발생했습니다. 자세한 내용을 보려면 브라우저를 참조하십시오.</val>
+	</str>
+	<str name="BCE500" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>서버 또는 네트워크 오류가 발생하는 경우 자세한 내용은 브라우저를 참조하십시오.</val>
+	</str>
+	<str name="BCE600" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>미리 보기가 취소되었습니다.</val>
+	</str>
+	<str name="BCE700" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>스크린 샷 오류가 발생했습니다. 자세한 내용을 보려면 브라우저를 참조하십시오.</val>
+	</str>
+	<str name="BCE800" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>버전 불일치가 발생했습니다. 업그레이드하십시오.</val>
+	</str>
+	<str name="BCE900" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>BrowserLab 서비스 접근 불가</val>
+	</str>
+	<str name="menuPermissionSettings" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>권한 설정...</val>
+	</str>		
+	<str name="menuAbout" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>BrowserLab 정보</val>
+	</str>
+	<str name="menuHelp" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>BrowserLab 도움말</val>
+	</str>
+	<str name="okBtn" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>확인</val>
+	</str>
+	<str name="menuAboutVersion" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>버전 {0}</val>
+	</str>
+   <str name="PureMVCAttribution" translate="yes">
+      <propset>
+         <prop><propkey>status</propkey><propval>final</propval></prop>
+      </propset>
+      <val>이 소프트웨어는 Creative Commons Attribution 3.0 License에 의해 사용이 허가된 &lt;a href="http://trac.puremvc.org/PureMVC/wiki/ManifoldProject/License"&gt;PureMVC Framework&lt;/a&gt;를 사용합니다.</val>
+   </str>	
+	<str name="AdobeCopyright_Line1" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>Copyright © 2010 Adobe Systems Inc</val>
+	</str>
+	<str name="AdobeCopyright_Line2" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>모든 권리 보유</val>
+	</str>
+	<str name="preparingForPreviewStatusMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>미리 보기 준비 중...</val>
+	</str>	
+	<str name="meerMeerServiceHelpURL" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>final</propval></prop>
+		</propset>
+		<val>http://www.adobe.com/go/lr_abl_kr</val>
+	</str>
+	<str name="emailNotVerifiedMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>사용자의 전자 메일 주소가 확인되지 않았습니다</val>
+	</str>				
+	<str name="touNotAcceptedMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>사용 약관에 동의하지 않았습니다.</val>
+	</str>				
+	<str name="subscriptionExpiredMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>구독 기간이 만료되었습니다.</val>
+	</str>			
+	<str name="subscriptionDisabledMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>구독이 비활성화되었습니다.</val>
+	</str>				
+	<str name="noSubscriptionNotProvisionedMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>유효한 구독이 없습니다. 액세스를 설정하십시오.</val>
+	</str>				
+	<str name="subscriptionExpNotProvisionedMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>구독이 기간이 만료되었습니다. 액세스를 설정하십시오.</val>
+	</str>				
+	<str name="noSubscriptionMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>유효한 구독이 없습니다. 다른 사용자로 로그인하십시오.</val>
+	</str>				
+	<str name="signInMsg" translate="yes">
+		<propset>
+			<prop><propkey>status</propkey><propval>draft</propval></prop>
+		</propset>
+		<val>BrowserLab에 액세스하기 위해 로그인</val>
+	</str>				
+</asf>

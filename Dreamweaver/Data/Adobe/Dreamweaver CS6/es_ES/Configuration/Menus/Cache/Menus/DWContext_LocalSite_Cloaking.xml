@@ -1,0 +1,7 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="O_cultar" arguments="'cloak'" file="Menus/MM/Site_Cloaking.htm" id="DWContext_LocalSite_Cloaking_Cloak" />
+<menuitem name="_Anular ocultación" arguments="'uncloak'" file="Menus/MM/Site_Cloaking.htm" id="DWContext_LocalSite_Cloaking_Uncloak" />
+<menuitem name="Anular ocultación de _todo" arguments="'uncloakall'" file="Menus/MM/Site_Cloaking.htm" id="DWContext_LocalSite_Cloaking_Uncloak_All" />
+<separator />
+<menuitem name="_Activar ocultación" arguments="'enable'" file="Menus/MM/Site_Cloaking.htm" id="DWContext_LocalSite_Cloaking_Enable_Cloaking" />
+<menuitem name="_Configuración..." command="site.showCloakingSettings()" enabled="site.getCurrentSite().length > 0" id="DWContext_LocalSite_Cloaking_Cloaking_Settings" />

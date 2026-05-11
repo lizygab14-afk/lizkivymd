@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="sp" dir="ltr">
+<head>
+<title>Ingreso</title>
+<meta charset="UTF-8">
+</head>
+<body bgcolor="1883ba" style="white" align="center">
+<h1 style="color:#ffff;">Página para ingreso y búsqueda  de datos</h1>
+
+</style>
+<br/>
+<br/>
+<br/>
+<a class="botonmio1" href="home.html">Home</a>
+<style type="text/css">
+.botonmio1{
+	alignment-baseline: center;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: helvetica;
+	font-weight: 300;
+	font-size: 23px;
+	color: #ffff;
+	background-color: orange;
+	border-radius: 15px;
+	border: 3px double; #006504;
+	opacity: 1;
+	text-decoration: none;
+	}
+</style>
+<br/>
+<br/>
+<br/>
+
+<style type="text/css">
+  .boton{
+	alignment-baseline: center;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: helvetica;
+	font-weight: 300;
+	font-size: 20px;
+	color: #ffff;
+	background-color: orange;
+	border-radius: 15px;
+	border: 3px double; #006504;
+	opacity: 1;
+	text-decoration: none;
+       }
+</style>
+
+
+<form action="agregar.php" method="POST">
+<input type="submit" value="Agregar" name="Agregar" style="white" class="boton">
+<p style="color:#ffff;">Id_compra</p>
+<input type="text" name="id_compra" placeholder="Escibe id">
+
+<p style="color:#ffff;">Nombre</p>
+<input type="text" name="nombre" placeholder="Escibe nombre del producto">
+
+<p style="color:#ffff;">Marca</p>
+<input type="text" name="marca" placeholder="Escibe marca del producto">
+
+<p style="color:#ffff;">Modelo</p>
+<input type="text" name="modelo" placeholder="Escibe modelo">
+
+<p style="color:#ffff;">Presentacion</p>
+<input type="text" name="presentacion" placeholder="Escibe presentacion del producto">
+
+<p style="color:#ffff;">Proveedor</p>
+<input type="text" name="proveedor" placeholder="Escibe proveedor del producto">
+
+<p style="color:#ffff;">Unitario</p>
+<input type="text" name="unitario" placeholder="Escibe el precio por pieza del producto">
+</form>
+
+<br/>
+<br/>
+<br/>
+<form action="buscar.php" method="POST" class=bottom>
+<input type="submit" value="Buscar" name="Buscar" class="boton">
+<p style="color:#ffff;">Id_compra</p>
+<input type="text" name="id_compra" placeholder="Escibe id de compra">
+</form>
+
+<br/>
+<br/>
+<form action="reporte.php" method="POST" class=bottom>
+<input type="submit" value="Buscar e Imprimir" name="Buscar" class="boton">
+<p style="color:#ffff;">Id_compra</p>
+<input type="text" name="id_compra" placeholder="Escibe id de compra">
+</form>
+
+<br/>
+<br/>
+<form action="reportei.php" method="POST" class=bottom>
+<input type="submit" value="Reporte Integral" name="Buscar" class="boton">
+</form>
+
+<br/>
+<br/>
+<br/>
+<form action="borrar.php" method="POST">
+<input type="submit" value="Borrar" name="Borrar" class="boton">
+<p style="color:#ffff;">Id_compra</p>
+<input type="text" name="id_compra" placeholder="Escibe id de compra">
+</form>
+
+<br/>
+<br/>
+<form action="actualizar.php" method="POST">
+<input type="submit" value="Actualizar" name="Actualizar" class="boton">
+
+<br/>
+<br/>
+<a class="botonmion" href="login.html">Salir</a>
+<style type="text/css">
+.botonmion{
+   text-decoration: none;
+   padding: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-family: helvetica;
+   font-weight: 300;
+   font-size: 23px;
+   color: #ffff;
+   background-color: orange;
+   border-radius: 15px;
+   border: 3px double; #006504;
+   opacity: 1;
+   text-decoration: none;
+   }
+</style>
+
+
+</form>
+
+</body>
+</html>

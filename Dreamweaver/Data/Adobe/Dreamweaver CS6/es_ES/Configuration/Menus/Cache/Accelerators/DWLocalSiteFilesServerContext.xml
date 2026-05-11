@@ -1,0 +1,8 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Cortar" key="Cmd+X" command="dw.clipCut()" enabled="dw.canClipCut()" id="DWContextLocalFilesServerOptions_Cut" />
+<menuitem name="Cop_iar" key="Cmd+C" command="dw.clipCopy()" enabled="dw.canClipCopy()" id="DWContextLocalFilesServerOptions_Copy" />
+<menuitem name="P_egar" key="Cmd+V" command="dw.clipPaste()" enabled="dw.canClipPaste()" id="DWContextLocalFilesServerOptions_Paste" />
+<menuitem name="_Eliminar" key="Del" command="dw.deleteSelection()" enabled="dw.canDeleteSelection()" id="DDWContextLocalFilesServerOptions_Delete" />
+<menuitem name="Dup_licar" key="Cmd+D" command="dw.clipCopy();dw.clipPaste()" enabled="dw.canClipCopy()" id="DWContextLocalFilesServerOptions_Duplicate" />
+<menuitem name="_Cambiar nombre" key="F2" command="site.renameSelection()" enabled="site.canRename()" id="DDWContextLocalFilesServerOptions_Rename" />
+<menuitem name="_Actualizar" key="F5" command="site.refresh('local')" enabled="dw.getFocus(true) == 'site' && site.canRefresh('local')" id="DWContextLocalFilesServerOptions_Refresh" />

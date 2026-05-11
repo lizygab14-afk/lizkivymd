@@ -1,0 +1,2 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Editar etiqueta..." key="Shift+F5" file="Menus/MM/EditTag.htm" id="DWContext_Form_EditTag" />

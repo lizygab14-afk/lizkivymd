@@ -1,0 +1,10 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Cortar" command="MM.event.notify('','dw.clipCut()')" enabled="dw.canClipCut()" id="DWContext_Default_Cut" />
+<menuitem name="C_opiar" command="MM.event.notify('','dw.clipCopy()')" enabled="dw.canClipCopy()" id="DWContext_Default_Copy" />
+<menuitem file="Menus/MM/Edit_Paste.htm" id="DWContext_Default_Paste" dynamic="true" />
+<menuitem name="Pegado e_special..." file="Menus/MM/Edit_PasteSpecial.htm" id="DWContext_Default_Paste_Special" />
+<separator />
+<menu name="_Plantillas" id="DWContext_Templates_4"></menu>
+<separator />
+<menuitem name="_Navegador de código..." key="Cmd+Opt+N" command="dw.popupCodeNavigator()" enabled="dw.canPopupCodeNavigator()" domRequired="TRUE" id="DWDefaultContext_CodeNavigator" />
+<menu name="Vis_ta de elementos" id="DWDefaultContext_ElementView"></menu>

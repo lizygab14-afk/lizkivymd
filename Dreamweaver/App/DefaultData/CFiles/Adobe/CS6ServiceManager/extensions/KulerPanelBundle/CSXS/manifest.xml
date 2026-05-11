@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="3.0" ExtensionBundleId="KulerPanelBundle" ExtensionBundleVersion="4.0.0.20120124_m_005"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ExtensionList>
+    <Extension Id="KLR" Version="4.0"/>
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="ILST" Version="16.0"/>
+      <Host Name="IDSN" Version="8.0"/>
+      <Host Name="FLPR" Version="12.0"/>
+      <Host Name="FWKS" Version="12.0"/>
+      <Host Name="PHSP" Version="13.0"/>
+      <Host Name="PHXS" Version="13.0"/>
+    </HostList>
+    <LocaleList>
+      <Locale Code="ar_AE"/>
+      <Locale Code="cs_CZ"/>
+      <Locale Code="da_DK"/>
+      <Locale Code="de_DE"/>
+      <Locale Code="el_GR"/>	  	  <Locale Code="en_AE"/>
+      <Locale Code="en_GB"/>	  	  <Locale Code="en_IL"/>
+      <Locale Code="en_US"/>
+      <Locale Code="es_ES"/>
+      <Locale Code="es_MX"/>
+      <Locale Code="fi_FI"/>
+      <Locale Code="fr_CA"/>      <Locale Code="fr_MA"/>
+      <Locale Code="he_IL"/>
+      <Locale Code="hu_HU"/>
+      <Locale Code="it_IT"/>
+      <Locale Code="ja_JP"/>
+      <Locale Code="ko_KR"/>
+      <Locale Code="nl_NL"/>
+      <Locale Code="nb_NO"/>
+      <Locale Code="pl_PL"/>
+      <Locale Code="pt_BR"/>
+      <Locale Code="ro_RO"/>
+      <Locale Code="ru_RU"/>
+      <Locale Code="sv_SE"/>
+      <Locale Code="tr_TR"/>
+      <Locale Code="uk_UA"/>
+      <Locale Code="zh_CN"/>
+      <Locale Code="zh_TW"/>
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="2.0"/>
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="KLR">
+      <DispatchInfo>
+        <Resources>
+          <SwfPath>./kuler.swf</SwfPath>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>Kuler</Menu>
+          <Geometry>
+          	<Size>
+            	<Height>455</Height> 
+            	<Width>215</Width>
+          	</Size> 
+          	<MaxSize>
+          		<Height>800</Height> 
+            	<Width>215</Width>
+          	</MaxSize>
+      		<MinSize>
+	          	<Height>455</Height> 
+	            <Width>215</Width>
+	    	</MinSize>
+	   	 </Geometry>
+          <Icons>
+            <Icon Type="Normal">./PP_kulerIcon_N.png</Icon>
+            <Icon Type="RollOver">./PP_kulerIcon_R.png</Icon>	            <Icon Type="DarkNormal">./PP_kulerIcon_D.png</Icon>	            <Icon Type="DarkRollOver">./PP_kulerIcon_R.png</Icon>
+          </Icons>
+        </UI>
+      </DispatchInfo>
+      <DispatchInfo Host="ILST">
+        <Resources>
+          <ScriptPath>./kuler1.jsx</ScriptPath>
+        </Resources>
+        <UI>
+          <Geometry>
+          <Size>
+            <Height>300</Height> 
+            <Width>215</Width>
+          </Size>
+          <MaxSize>
+          	<Height>800</Height> 
+            <Width>215</Width>
+          </MaxSize>
+          <MinSize>
+          	<Height>245</Height> 
+            <Width>215</Width>
+          </MinSize>
+          </Geometry>
+        </UI>
+      </DispatchInfo>
+      <DispatchInfo Host="PHSP">
+        <Resources>
+          <ScriptPath>./kuler2.jsx</ScriptPath>
+        </Resources>
+      </DispatchInfo>
+      <DispatchInfo Host="IDSN">
+        <Resources>
+          <ScriptPath>./kuler3.jsx</ScriptPath>
+        </Resources>
+      </DispatchInfo>
+      <DispatchInfo Host="PHXS">
+        <Resources>
+          <ScriptPath>./kuler2.jsx</ScriptPath>
+        </Resources>
+      </DispatchInfo>
+      <DispatchInfo Host="FLPR">
+        <Resources>
+          <ScriptPath>./kuler4.jsfl</ScriptPath>
+        </Resources>
+      </DispatchInfo>
+      <DispatchInfo Host="FWKS">
+        <Resources>
+          <ScriptPath>./kuler5.jsf</ScriptPath>
+        </Resources>
+      </DispatchInfo>
+      
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>

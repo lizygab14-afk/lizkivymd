@@ -1,0 +1,31 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Nuevo..." key="Cmd+N" command="dw.newDocument()" enabled="true" domRequired="false" id="DWMenu_File_New" />
+<menuitem name="Nuevo diseño de cuadrícula _fluida..." command="dw.newDocument('multiscreen')" enabled="true" domRequired="false" id="DWMenu_File_New_Multiscreen" />
+<menuitem name="_Abrir..." key="Cmd+O" command="dw.openDocument()" enabled="dw.getDocumentDOM() == null || (dw.getDocumentDOM() != null && !dw.getDocumentDOM().getEditNoFramesContent())" domRequired="false" id="DWMenu_File_Open" />
+<menuitem name="_Examinar en Bridge..." key="Cmd+Opt+O" file="Menus/MM/BrowseInBridge.htm" domRequired="false" id="DWMenu_File_BrowseInBridge" />
+<menu name="Abrir recien_te" id="DWMenu_File_RecentFiles"></menu>
+<menuitem name="Ab_rir en marco..." key="Cmd+Shift+O" command="dw.openInFrame()" enabled="dw.canOpenInFrame()" id="DWMenu_File_OpenInFrame" />
+<menuitem name="_Cerrar" key="Cmd+W" command="dw.closeDocument(dw.getDocumentDOM())" enabled="dw.getDocumentDOM() != null" platform="win" id="DWMenu_File_Close" />
+<menuitem name="C_errar todos" key="Cmd+Shift+W" command="dw.closeAll()" enabled="dw.getDocumentDOM() != null" id="DWMenu_File_CloseAll" />
+<separator />
+<menuitem name="_Guardar" key="Cmd+S" file="Menus/MM/File_Save.htm" id="DWMenu_File_Save" />
+<menuitem name="G_uardar como..." key="Cmd+Shift+S" file="Menus/MM/File_SaveAs.htm" id="DWMenu_File_SaveAs" />
+<menuitem name="Guardar _todo" command="dw.saveAll()" enabled="dw.canSaveAll()" id="DWMenu_File_SaveAll" />
+<menuitem name="Guardar todos los archivos _relacionados" command="dw.saveAllRelatedFiles()" enabled="dw.canSaveAllRelatedFiles()" id="DWMenu_File_SaveAll_RelatedFiles" />
+<menuitem name="_Guardar en servidor remoto..." command="dw.saveDocumentToRemoteServer(dw.getDocumentDOM())" enabled="dw.getDocumentDOM() != null && !site.serverActivity()" showif="dw.featureManager.isEnabled(FeatureManager.SITECONNECTIONS)" id="DWMenu_File_SaveDocumentToRemoteServer" />
+<menuitem name="Guardar como _plantilla..." file="Menus/MM/File_SaveAsTemplate.htm" id="DWMenu_File_SaveAsTemplate" />
+<menuitem name="R_estituir" command="dw.revertDocument(dw.getDocumentDOM())" enabled="(dw.getFocus() == 'textView' || dw.getFocus(true) == 'html' || dw.getFocus() == 'document') && dw.getDocumentDOM() != null && dw.canRevertDocument(dw.getDocumentDOM())" id="DWMenu_File_Revert" />
+<separator />
+<menuitem name="Im_primir código..." key="Cmd+P" command="dw.printCode(true, dw.getDocumentDOM())" enabled="dw.getDocumentDOM() != null && dw.getFocus() != 'site' && dw.getFocus()!='browser'" domRequired="false" id="DWMenu_File_PrintCode" />
+<separator />
+<menu name="_Importar" id="DWMenu_File_Import"></menu>
+<menu name="E_xportar" id="DWMenu_File_Export"></menu>
+<menu name="Con_vertir" id="DWMenu_File_Convert"></menu>
+<separator />
+<menu name="Vista previa en e_l navegador" id="DWMenu_File_PIB"></menu>
+<menuitem name="Vista previa multipantalla" enabled="dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" command="dw.toggleFloater('MultiscreenPreview');" checked="dw.getFloaterVisibility('MultiscreenPreview');" id="DWMenu_Multiscreen_Preview"/>
+<menu name="C_omprobar página" id="DWMenu_File_CheckPage"></menu>
+<menu name="Validar" id="DWMenu_File_Validate" showif="dw.featureManager.isEnabled(FeatureManager.VALIDATOR)"></menu>
+<menuitem name="_Comparar" arguments="'compare','document'" file="Menus/MM/Site_File.htm" id="DWMenu_File_Compare" />
+<menuitem name="Design _Notes..." file="Menus/MM/Design Notes Launch.htm" id="DWMenu_File_DesignNotes" />
+<separator platform="win" />

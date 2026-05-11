@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionManifest Version="2.0" ExtensionBundleId="BrowserLab" ExtensionBundleVersion="2.0.0.588">
+	<Author>Adobe Systems Incorporated</Author>
+	<Contact mailto="support@adobe.com"/>
+	<Legal href="http://www.adobe.com"/>
+	<Abstract href="http://www.adobe.com"/>
+	<ExtensionList>
+		<Extension Id="BL" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="DRWV" Version="11" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="2.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="BL">
+			<DispatchInfo>
+				<Resources>
+					<SwfPath>./BrowserLabDW.swf</SwfPath>
+					<ScriptPath>./BrowserLabDW.js</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>%BLMENU</Menu>
+					<Geometry>
+						<Size>
+							<Height>%HEIGHT</Height>
+							<Width>%WIDTH</Width>
+						</Size>
+						<MaxSize>
+							<Height>%MAXHEIGHT</Height>
+							<Width>%WIDTH</Width>
+						</MaxSize>
+						<MinSize>
+							<Height>%HEIGHT</Height>
+							<Width>%WIDTH</Width>
+						</MinSize>
+					</Geometry>
+					<Icons>
+						<Icon Type="Normal">./PL_BrowserLab_N.png</Icon>
+						<Icon Type="RollOver">./PL_BrowserLab_R.png</Icon>
+					</Icons>
+				</UI>
+				<ExtensionData>%EXTENSION_DATA</ExtensionData>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

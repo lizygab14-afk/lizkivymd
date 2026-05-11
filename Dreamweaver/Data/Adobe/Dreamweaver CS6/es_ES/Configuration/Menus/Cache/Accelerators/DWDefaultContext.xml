@@ -1,0 +1,3 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Nueva región editable..." key="Cmd+Opt+V" arguments="null" file="Commands/InsertEditableRegion.htm" id="DWMenu_DefaultContext_Templates_NewEditableRegion" />
+<menuitem name="_Navegador de código..." key="Cmd+Opt+N" command="dw.popupCodeNavigator()" enabled="dw.canPopupCodeNavigator()" domRequired="TRUE" id="DWDefaultContext_CodeNavigator" />

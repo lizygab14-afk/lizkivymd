@@ -1,0 +1,26 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="Propiedade_s de la página..." key="Cmd+J" command="dw.getDocumentDOM().showPagePropertiesDialog()" enabled="dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && !dw.getDocumentDOM().getIsLibraryDocument()" id="DWMenu_Modify_PageProperties" />
+<menuitem name="_Propiedades de plantilla..." file="Commands/TemplateParams.htm" id="DWMenu_Modify_Templates_TemplateProperties" />
+<menuitem name="P_ropiedades de la selección" command="dw.toggleFloater('properties')" enabled="dw.getFocus() != 'browser' && dw.getFocus() != 'site'" checked="dw.getFloaterVisibility('properties')" id="DWMenu_Modify_SelectionProperties" />
+<menuitem name="Estilos _CSS" key="Shift+F11" command="dw.toggleFloater('css styles')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('css styles')" platform="win" domRequired="false" id="DWMenu_Modify_CSSStyles" />
+<menuitem name="_Consultas de medios..." command="dw.runCommand('Media Query Manager')" enabled="dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html';" domRequired="true" id="DWMenu_Modify_MediaQueries" />
+<separator />
+<menuitem name="Familias de fuentes..." command="dw.editFontList()" enabled="true" id="DWContext_Modify_FontFamilies" />
+<menuitem name="Fuentes _Web..." command="dw.webFonts()" enabled="true" id="DWContext_Modify_WebFonts" />
+<separator />
+<menuitem name="_Editar etiqueta..." command="dw.popupEditTagDialog()" enabled="dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.canPopupEditTagDialog()" domRequired="FALSE" id="DWMenu_Modify_EditTag" />
+<menuitem name="Quick Tag _Editor..." key="Cmd+T" command="dw.showQuickTagEditor()" enabled="(dw.getFocus() == 'document' && dw.getDocumentDOM().getFocus() != 'frameset') || dw.getFocus() == 'textView' || dw.getFocus(true) == 'html'" domRequired="FALSE" id="DWMenu_Modify_QTE" />
+<separator />
+<menuitem name="Crear _vínculo..." key="Cmd+L" file="Menus/MM/Modify_HyperLink.htm" id="DWMenu_Modify_MakeLink" />
+<menuitem name="_Quitar vínculo" key="Cmd+Shift+L" command="dw.getDocumentDOM().removeLink()" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().getLinkHref().length > 0" id="DWMenu_Modify_RemoveLink" />
+<menuitem name="_Abrir página vinculada..." arguments="'needFocus'" file="Menus/MM/Open_Linked_Page.htm" id="DWMenu_Modify_OpenLinkedPage" />
+<menu name="_Destino del vínculo " id="DWMenu_Modify_Hyperlink_Target"></menu>
+<separator />
+<menu name="_Tabla" id="DWMenu_Modify_Table"></menu>
+<menu name="_Imagen" id="DWMenu_Modify_Image"></menu>
+<menu name="Conjunto _de marcos" id="DWMenu_Modify_Frameset"></menu>
+<menu name="_Organizar" id="DWMenu_Modify_Arrange"></menu>
+<menu name="_Convertir" id="DWMenu_Modify_Convert"></menu>
+<separator />
+<menu name="_Biblioteca" id="DWMenu_Modify_Library"></menu>
+<menu name="_Plantillas" id="DWMenu_Modify_Templates"></menu>

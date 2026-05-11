@@ -1,0 +1,2 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="No se encontraron editores" file="Menus/MM/ImageSource_Editors_Dynamic.htm" id="DWContext_ImageSource_EditWith_NoEditors" dynamic="true" />

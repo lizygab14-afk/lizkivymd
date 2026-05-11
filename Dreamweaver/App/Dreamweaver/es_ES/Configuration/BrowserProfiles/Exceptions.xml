@@ -1,0 +1,11 @@
+﻿<exceptions>
+<!--
+Coloque las etiquetas entre <exceptions> y </exceptions> para evitar que determinados tipos de errores de revisión del navegador de destino se subrayen en la vista Código.
+Ejemplo para omitir toda la propiedad CSS:
+<cssProperty property="font-family"/>
+Ejemplo para omitir valores desconocidos de una propiedad CSS:
+<cssValue property="font-family"/>
+Ejemplo para omitir un problema de compatibilidad con navegadores (los nombres y los id de los problemas se encuentran en los archivos .html y .js, contenidos en Configuration/BrowserProfiles/Issues/):
+<issue id="THREE_PIXEL_JOG" name="Salto de texto de tres pxeles"/>
+ -->
+</exceptions>

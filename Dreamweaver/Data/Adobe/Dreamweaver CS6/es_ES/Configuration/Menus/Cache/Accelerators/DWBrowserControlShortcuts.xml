@@ -1,0 +1,20 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<shortcut key="Opt+Left"	platform="win"	arguments="'back_button','control'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Back_Win"/>
+<shortcut key="Browser_Back" platform="win"	arguments="'back_button','control'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Back_ExtendedKeyboards"/>
+<shortcut key="Opt+Right"	platform="win"	arguments="'forward_button','control'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Forward_Win"/>
+<shortcut key="Browser_Forward" platform="win" arguments="'forward_button','control'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Forward_ExtendedKeyboards"/>
+<shortcut key="Opt+Home"	platform="win"	arguments="'home_button','control'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Home_Win"/>
+<shortcut key="Browser_Home" platform="win"	arguments="'home_button','control'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Home_ExtendedKeyboards"/>
+<shortcut key="F5"			platform="win"	arguments="'refresh_button','control'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Refresh_Win"/>
+<shortcut key="Cmd+R"						arguments="'refresh_button','control'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Refresh"/>
+<shortcut key="Browser_Refresh" platform="win" arguments="'refresh_button','control'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Refresh_ExtendedKeyboards"/>
+<shortcut key="Esc"							arguments="'stop_button','control'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Stop"/>
+<shortcut key="Browser_Stop" platform="win"	arguments="'stop_button','control'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Stop_ExtendedKeyboards"/>
+<shortcut key="Cmd+X"						arguments="'edit_cut','control'"			file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Edit_Cut"/>
+<shortcut key="Cmd+C"						arguments="'edit_copy','control'"			file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Edit_Copy"/>
+<shortcut key="Cmd+V"						arguments="'edit_paste','control'"		file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Edit_Paste"/>
+<shortcut key="Cmd+A"						arguments="'edit_select_all','control'"	file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Edit_SelectAll"/>
+<shortcut key="Cmd+F"						arguments="'edit_find','control"			file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Edit_Find"/>
+<shortcut key="Cmd+Z"						arguments="'edit_undo','control'"			file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Edit_Undo"/>
+<shortcut key="Cmd+Y"						arguments="'edit_redo','control'"			file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Edit_Redo"/>
+<shortcut key="Cmd+Shift+Z"					arguments="'edit_redo','control'"			file="Menus/MM/Browser_Controls.htm" id="DWShortcuts_BrowserControl_Edit_Redo_Shift"/>

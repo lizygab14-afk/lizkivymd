@@ -1,0 +1,7 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="Regla hori_zontal" enabled="(dw.getActiveWindow(true) != null && dw.getActiveWindow(true).allowsEdits()) && dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" file="Common/HR.htm" id="DWMenu_Insert_HR" isobject="true" />
+<menu name="Ma_rcos" id="DWMenu_Insert_Frames"></menu>
+<menu name="Objetos de te_xto" id="DWMenu_Insert_TextObjects"></menu>
+<menu name="Objetos de s_cript" id="DWMenu_Insert_ScriptObjects"></menu>
+<menu name="Etiquetas _Head" id="DWMenu_Insert_Head"></menu>
+<menu name="_Caracteres especiales" id="DWMenu_Insert_Characters"></menu>

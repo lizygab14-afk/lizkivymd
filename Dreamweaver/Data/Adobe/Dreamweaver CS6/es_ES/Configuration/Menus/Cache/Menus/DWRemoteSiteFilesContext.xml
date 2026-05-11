@@ -1,0 +1,24 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Nuevo archivo" arguments="'newfile'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_NewFile" />
+<menuitem name="_Nueva carpeta" arguments="'newfolder'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_NewFolder" />
+<menuitem name="_Abrir" arguments="'open'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_SiteOpen" />
+<menu name="_Edición" id="DWContext_RemoteFiles_Edit"></menu>
+<separator />
+<menuitem name="_Obtener" arguments="'get','site'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_Get" />
+<menuitem name="Prot_eger" arguments="'checkout','site'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_Checkout" />
+<menuitem name="_Colocar" arguments="'put','site'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_Put" />
+<menuitem name="Despro_teger" arguments="'checkin','site'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_Checkin" />
+<menuitem name="Des_hacer proteger" arguments="'undocheckout','site'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_UndoCheckout" />
+<menuitem name="Mostrar protegido _por..." arguments="'checkedoutby','site'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_CheckedOutBy" />
+<menuitem name="_Restaurar página" command="site.doRevertFileDlg('site')" enabled="site.canDoRevertFileDlg('site')" id="DWContext_RemoteSite_RevertFile" />
+<menuitem name="_Comparar" arguments="'compare','site'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_Compare" />
+<menuitem name="Sincroni_zar..." arguments="'sync'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_Synchronize" />
+<separator />
+<menu name="Ocultac_ión" id="DWContext_RemoteSite_Cloaking"></menu>
+<menuitem name="_Desactivar sólo lectura" arguments="'unlock','site'" file="Menus/MM/Site_File.htm" platform="win" id="DWContext_RemoteSite_TurnOffReadOnly" />
+<menuitem name="Localizar en sitio _local" arguments="'findlocal','site'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite_FindLocal" />
+<menuitem name="Establecer permisos..." file="Menus/MM/Accessprops.htm" id="DWContext_RemoteSite_SetPermissions" />
+<separator />
+<menu name="_Vista previa en el navegador" id="DWContext_RemoteSite_PIB"></menu>
+<menu name="_Comprobar vínculos" id="DWContext_RemoteSite_CheckLinks"></menu>
+<menuitem name="Actuali_zar archivos remotos" arguments="'refresh','remote'" file="Menus/MM/Site_File.htm" id="DWContext_RemoteSite__Refresh" />

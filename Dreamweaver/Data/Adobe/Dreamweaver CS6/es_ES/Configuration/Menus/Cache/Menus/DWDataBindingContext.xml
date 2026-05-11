@@ -1,0 +1,6 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Cortar" command="dw.clipCut()" enabled="dw.canClipCut()" id="DWContext_DataBinding_Cut" />
+<menuitem name="C_opiar" command="dw.clipCopy()" enabled="dw.canClipCopy()" id="DWContext_DataBinding_Copy" />
+<menuitem name="_Pegar" command="dw.clipPaste()" enabled="dw.canClipPaste()" id="DWContext_DataBinding_Paste" />
+<separator />
+<menuitem name="C_aché" command="MMDB.enableCache(!MMDB.supportsCache())" checked="MMDB.supportsCache()" id="DWContext_DataBinding_Cache" />

@@ -1,0 +1,38 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Insertar" key="Cmd+F2" command="dw.toggleFloater('objects')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('objects')" domRequired="false" id="DWMenu_Window_Insert" />
+<menuitem name="_Propiedades" key="Cmd+F3" command="dw.toggleFloater('properties')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('properties')" domRequired="false" id="DWMenu_Window_Properties" />
+<separator />
+<menuitem name="Estilos _CSS" key="Shift+F11" command="dw.toggleFloater('css styles')" enabled="dw.getFocus() != 'browser' || dw.getDocumentDOM().getDesignViewMode() == 'live'" checked="dw.getFloaterVisibility('css styles')" platform="win" domRequired="false" id="DWMenu_Window_CSSStyles" />
+<menuitem name="Muestras de jQuery Mobile" command="dw.toggleFloater('jQuerySwatchContainer')" enabled="dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" checked="dw.getFloaterVisibility('jQuerySwatchContainer')" id="DWMenu_Window_Jquery_Swatch" />
+<menuitem name="E_lementos PA" command="dw.toggleFloater('apElements')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('layers')" domRequired="false" id="DWMenu_Window_Layers" />
+<menuitem name="Vista previa multipantalla" enabled="dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html'" command="dw.toggleFloater('MultiscreenPreview');" checked="dw.getFloaterVisibility('MultiscreenPreview');" id="DWMenu_Window_Multiscreen_Preview"/>
+<separator />
+<menuitem name="Business Catalyst" key="Cmd+Shift+B" enabled="true" command="dw.toggleFloater('BCModulePanel');" checked="dw.getFloaterVisibility('BCModulePanel');" id="DWMenu_Window_BC_Modules" />
+<separator />
+<menuitem name="_Bases de datos" key="Cmd+Shift+F10" command="dw.toggleFloater('databases')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('databases')" domRequired="false" id="DWMenu_Window_Databases" />
+<menuitem name="_Vinculaciones" key="Cmd+F10" command="dw.toggleFloater('data bindings')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('data bindings')" domRequired="false" id="DWMenu_Window_DataBindings" />
+<menuitem name="Comportamientos _del servidor" key="Cmd+F9" command="dw.toggleFloater('server behaviors')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('server behaviors')" domRequired="false" id="DWMenu_Window_ServerBehaviors" />
+<menuitem name="Co_mponentes" key="Cmd+F7" command="dw.toggleFloater('server components')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('server components')" domRequired="false" id="DWMenu_Window_ServerAssets" />
+<separator />
+<menuitem name="_Archivos" key="F8" platform="win" command="dw.toggleFloater('site files')" enabled="true" checked="dw.getFloaterVisibility('site files')" domRequired="false" id="DWMenu_Window_SiteFiles" />
+<menuitem name="_Activos" command="dw.toggleFloater('assets')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('assets')" platform="win" domRequired="false" id="DWMenu_Window_Assets" />
+<menuitem name="_Fragmentos" key="Shift+F9" command="dw.toggleFloater('snippets')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('snippets')" platform="win" domRequired="false" id="DWMenu_Window_Snippets" />
+<separator />
+<menuitem name="T_ransiciones CSS" command="dw.toggleFloater('ant')" enabled="dw.getFocus() != 'browser' || dw.getDocumentDOM().getDesignViewMode() == 'live'" checked="dw.getFloaterVisibility('ant')" domRequired="false" id="DWMenu_Window_Ant" />
+<menuitem name="Inspec_tor de etiquetas" key="F9" command="dw.toggleFloater('selection inspector')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('selection inspector')" platform="win" domRequired="false" id="DWMenu_Window_SelInspector" />
+<menuitem name="C_omportamientos" key="Shift+F4" command="dw.toggleFloater('behaviors')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('behaviors')" domRequired="false" id="DWMenu_Window_Behaviors" />
+<menuitem name="_Historial" key="Shift+F10" command="dw.toggleFloater('history')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('history')" platform="win" domRequired="false" id="DWMenu_Window_History" />
+<menuitem name="Ma_rcos" key="Shift+F2" command="dw.toggleFloater('frames')" enabled="dw.getFocus() != 'browser'" checked="dw.getFloaterVisibility('frames')" domRequired="false" id="DWMenu_Window_Frames" />
+<menuitem name="Inspector de có_digo" key="F10" command="dw.toggleFloater('html')" enabled="dw.getFocus() != 'browser' || dw.getDocumentDOM().getDesignViewMode() == 'live'" checked="dw.getFloaterVisibility('html')" platform="win" domRequired="false" id="DWMenu_Window_HTML" />
+<menu name="Res_ultados" id="DWMenu_Window_Results"></menu>
+<menu id="DWMenu_File_ServicesCommands" name="E_xtensiones"></menu>
+<separator />
+<menuitem name="Diseño del espacio de tra_bajo" id="DWMenu_Window_Layout" />
+<menuitem name="Mostrar _paneles" key="F4" file="Menus/MM/Window_Floaters.htm" id="DWMenu_Window_ShowPalettes" />
+<menuitem name="Barra de la aplicación" command="dw.setHideAppBar(!dw.getHideAppBar())"  platform="win"  enabled="true" checked="dw.getHideAppBar() == false" domRequired="false" id="DWMenu_Window_AppBar" />
+<separator />
+<menuitem name="_Cascada" command="dw.cascade()" enabled="dw.getDocumentDOM() != null  && dw.canCascadeDocs()" domRequired="true" id="DWMenu_Window_cascade" />
+<menuitem name="Mosaico hori_zontal" command="dw.tileHorizontally()" enabled="dw.getDocumentDOM() != null" platform="win" domRequired="true" id="DWMenu_Window_tileHorizontally" />
+<menuitem name="Mosaico _vertical" command="dw.tileVertically()" enabled="dw.getDocumentDOM() != null" platform="win" domRequired="true" id="DWMenu_Window_tileVertically" />
+<separator />
+<menuitem name="(No hay documentos abiertos)" file="Menus/MM/Window_Titles.htm" id="DWMenu_Window_Default" dynamic="true" />

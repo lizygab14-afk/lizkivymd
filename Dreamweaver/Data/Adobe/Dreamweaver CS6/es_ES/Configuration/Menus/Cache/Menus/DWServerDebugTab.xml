@@ -1,0 +1,9 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Deshacer" enabled="false" domRequired="FALSE" id="DWServerDebugTab_Undo" />
+<separator />
+<menuitem name="_Cortar" enabled="false" domRequired="FALSE" id="DWServerDebugTab_Cut" />
+<menuitem name="C_opiar" command="dw.resultsPalette.copy()" enabled="dw.resultsPalette.canCopy();" domRequired="FALSE" id="DWServerDebugTab_Copy" />
+<menuitem name="_Pegar" enabled="false" domRequired="FALSE" id="DWServerDebugTab_Paste" />
+<separator />
+<menuitem name="Seleccionar _todo" command="dw.resultsPalette.selectAll()" enabled="dw.resultsPalette.canSelectAll()" domRequired="FALSE" id="DWServerDebugTab_SelectAll" />
+<menuitem name="Borrar resultados" command="dw.resultsPalette.clear()" enabled="dw.resultsPalette.canClear();" domRequired="FALSE" id="DWServerDebugTab_ClearResults" />

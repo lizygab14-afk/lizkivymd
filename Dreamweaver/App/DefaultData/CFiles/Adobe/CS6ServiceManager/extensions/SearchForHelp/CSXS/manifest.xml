@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleVersion="3.0.017.20120111" ExtensionBundleId="SearchForHelp" Version="2.0">
+ <ExtensionList>
+    <Extension Id="SRHP"/>
+  </ExtensionList>
+ <ExecutionEnvironment>
+    <HostList>
+      <Host Name="AICY" Version="7.0"/>
+      <Host Name="CPTV" Version="5.0"/>
+      <Host Name="CNTB" Version="6.0"/>
+      <Host Name="DRWV" Version="11.0"/>      
+      <Host Name="IDSN" Version="7.0"/>
+      <Host Name="ILST" Version="15.0"/>          
+      <Host Name="FLPR" Version="11.0"/>
+      <Host Name="FWKS" Version="11.0"/>
+      <Host Name="PHSP" Version="12.0"/>
+      <Host Name="PHXS" Version="12.0"/>
+    </HostList>
+    
+    <LocaleList>
+      <Locale Code="All"/>
+    </LocaleList>
+    
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="2.0"/>
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="SRHP">
+      <DispatchInfo>
+        <Resources>
+          <SwfPath>./HelpTerm.swf</SwfPath>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Custom</Type>
+          <Geometry>
+          	<Size>
+            	<Height>20</Height> 
+            	<Width>123</Width>
+            </Size>
+          </Geometry>
+          <Icons>
+            <Icon Type="Normal">./HelpTerm-SI.png</Icon>
+            <Icon Type="RollOver">./HelpTerm-SIRO.png</Icon>
+          </Icons>
+        </UI>
+        <ExtensionData>
+        	<ExecutableList>
+				<Executable Id="HelpClient" Platform="win">%COMMON_FILES%/Adobe/HIL Help Search/ahclient.exe</Executable>
+				<Executable Id="HelpClient" Platform="mac">%COMMON_FILES%/Adobe/HIL Help Search/ahclient/ahclient</Executable>
+			</ExecutableList>
+		</ExtensionData>
+        
+      </DispatchInfo>
+    </Extension>
+   </DispatchInfoList>
+</ExtensionManifest>

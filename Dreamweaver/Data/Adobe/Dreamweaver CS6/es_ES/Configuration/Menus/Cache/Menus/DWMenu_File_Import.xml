@@ -1,0 +1,5 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_XML en plantilla..." command="dw.importXMLIntoTemplate()" enabled="dw.getFocus() != 'site' && dw.canFindNext() && dw.getDocumentDOM() != null && dw.getDocumentDOM().getParseMode() == 'html' && dw.getActiveWindow().getDesignViewMode() != 'live'" id="DWMenu_File_Import_XMLIntoTemplate" />
+<menuitem name="Datos de _tabla..." file="Commands/Import Table Data.htm" id="DWMenu_File_Import_TableData" />
+<menuitem name="Documento  de _Word..." enabled="dw.getDocumentDOM() != null && dw.getFocus() == 'document' && dw.getDocumentDOM().getParseMode() == 'html' && dw.canImportWord() > 0" file="Commands/Insert_Word.htm" platform="win" domRequired="true" id="DWMenu_Insert_Word" />
+<menuitem name="Documento de _Excel..." enabled="dw.getDocumentDOM() != null && dw.getFocus() == 'document' && dw.getDocumentDOM().getParseMode() == 'html' && dw.canImportExcel() > 0" file="Commands/Insert_Excel.htm" platform="win" domRequired="true" id="DWMenu_Insert_Excel" />

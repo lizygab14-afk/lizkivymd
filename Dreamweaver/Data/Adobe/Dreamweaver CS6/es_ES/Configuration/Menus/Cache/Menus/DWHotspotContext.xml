@@ -1,0 +1,24 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="I_mage Map ID..." command="dw.getDocumentDOM().editAttribute('ID')" enabled="true" id="DWContext_ImageMap_IDAttr" />
+<separator />
+<menuitem name="_Vínculo..." command="dw.getDocumentDOM().editAttribute('HREF')" enabled="true" id="DWContext_Hotspot_LinkAttr" />
+<menuitem name="Des_tino..." command="dw.getDocumentDOM().editAttribute('TARGET')" enabled="true" id="DWContext_Hotspot_TargetAttr" />
+<menuitem name="_Alt..." command="dw.getDocumentDOM().editAttribute('ALT')" enabled="true" id="DWContext_Hotspot_AltAttr" />
+<separator />
+<menuitem name="A_linear a la izquierda" command="dw.getDocumentDOM().align('left')" enabled="dw.getDocumentDOM().canAlign()" id="DWContext_Hotspot_AlignLeft" />
+<menuitem name="Alinea_r a la derecha" command="dw.getDocumentDOM().align('right')" enabled="dw.getDocumentDOM().canAlign()" id="DWContext_Hotspot_AlignRight" />
+<menuitem name="Alinear con el borde su_perior" command="dw.getDocumentDOM().align('top')" enabled="dw.getDocumentDOM().canAlign()" id="DWContext_Hotspot_AlignTop" />
+<menuitem name="Alinear con el _borde inferior" command="dw.getDocumentDOM().align('bottom')" enabled="dw.getDocumentDOM().canAlign()" id="DWContext_Hotspot_AlignBottom" />
+<separator />
+<menuitem name="_Traer al frente" command="dw.getDocumentDOM().arrange('front')" enabled="dw.getDocumentDOM().canArrange()" id="DWContext_Hotspot_BringFront" />
+<menuitem name="En_viar al fondo" command="dw.getDocumentDOM().arrange('back')" enabled="dw.getDocumentDOM().canArrange()" id="DWContext_Hotspot_SendBack" />
+<separator />
+<menuitem name="Asignar mismo anc_ho" command="dw.getDocumentDOM().makeSizesEqual(true,false)" enabled="dw.getDocumentDOM().canAlign()" id="DWContext_Hotspot_MakeSameWidth" />
+<menuitem name="Asignar mismo al_to" command="dw.getDocumentDOM().makeSizesEqual(false,true)" enabled="dw.getDocumentDOM().canAlign()" id="DWContext_Hotspot_MakeSameHeight" />
+<separator />
+<menuitem name="_Cortar" command="MM.event.notify('','dw.clipCut()')" enabled="dw.canClipCut()" id="DWContext_Hotspot_Cut" />
+<menuitem name="C_opiar" command="MM.event.notify('','dw.clipCopy()')" enabled="dw.canClipCopy()" id="DWContext_Hotspot_Copy" />
+<menuitem name="_Pegar" command="MM.event.notify('','dw.clipPaste()')" enabled="dw.canClipPaste()" id="DWContext_Hotspot_Paste" />
+<separator />
+<menuitem name="Prop_iedades" command="dw.showProperties()" enabled="true" id="DWContext_Hotspot_Properties" />
+<menuitem name="_Navegador de código..." command="dw.popupCodeNavigator()" enabled="dw.canPopupCodeNavigator()" domRequired="TRUE" id="DWContext_Hotspot_CodeNavigator" />

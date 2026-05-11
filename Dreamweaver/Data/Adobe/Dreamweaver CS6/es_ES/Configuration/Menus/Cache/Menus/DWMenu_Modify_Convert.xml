@@ -1,0 +1,3 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Tablas en divs PA..." command="dw.getDocumentDOM().convertTablesToLayers()" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().getFocus() != 'head' && dw.getDocumentDOM().canConvertTablesToLayers() && !dw.getDocumentDOM().getShowLayoutView()" id="DWMenu_Modify_Convert_TablesToLayers" />
+<menuitem name="_Divs PA en tabla..." command="dw.getDocumentDOM().convertLayersToTable()" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().getFocus() != 'head'  && dw.getDocumentDOM().getFocus() != 'frameset' &&  dw.getDocumentDOM().canConvertLayersToTable() && !dw.getDocumentDOM().getShowLayoutView()" id="DWMenu_Modify_Convert_LayersToTable" />

@@ -1,0 +1,19 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem arguments="'spryDataSet'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_DataSet" name="Conjunto de _datos de Spry" isobject="true" />
+<menuitem arguments="'spryRegion'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_Region" name="Reg_ión de Spry" isobject="true" />
+<menuitem arguments="'spryRepeat'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_Repeat" name="R_epetición de Spry" isobject="true" />
+<menuitem arguments="'spryRepeatList'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_RepeatList" name="_Lista de repetición de Spry" isobject="true" />
+<separator />
+<menuitem arguments="'validationTextField'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_ValidationTextField" name="Campo de t_exto de validación de Spry" isobject="true" />
+<menuitem arguments="'validationTextarea'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_ValidationTextarea" name="Área de te_xto de validación de Spry" isobject="true" />
+<menuitem arguments="'validationCheckBox'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_ValidationCheckBox" name="_Casilla de verificación de validación de Spry" isobject="true" />
+<menuitem arguments="'validationSelect'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_ValidationSelect" name="_Selección de validación de Spry" isobject="true" />
+<menuitem id="DWMenu_Insert_Spry_ValidationPassword" name="Contraseña de validación de Spry" file="Menus/MM/Spry_InsertValidationPassword.htm" isobject="true" />
+<menuitem id="DWMenu_Insert_Spry_ValidationConfirm" name="C_onfirmación de validación de Spry" file="Menus/MM/Spry_InsertValidationConfirm.htm" isobject="true" />
+<menuitem id="DWMenu_Insert_Spry_ValidationRadio" name="Grupo de opciones de validación de Spry" file="Menus/MM/Spry_InsertValidationRadio.htm" isobject="true" />
+<separator />
+<menuitem arguments="'menubar'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_MenuBar" name="Barra de _menús de Spry" isobject="true" />
+<menuitem arguments="'tabbedpanels'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_TabbedPanels" name="_Paneles en fichas de Spry" isobject="true" />
+<menuitem arguments="'accordion'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_Accordion" name="_Acordeón de Spry" isobject="true" />
+<menuitem arguments="'collapsiblepanel'" file="Menus/MM/Spry_Insert.htm" id="DWMenu_Insert_Spry_CollapsiblePanel" name="Panel que puede _contraerse de Spry" isobject="true" />
+<menuitem id="DWMenu_Insert_Spry_Tooltip" name="Información sobre herramientas de Spry" file="Menus/MM/Spry_InsertTooltip.htm" isobject="true" />

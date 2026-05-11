@@ -1,0 +1,44 @@
+--------------------------
+FREQUENTLY ASKED QUESTIONS
+--------------------------
+Q: Not familiar with "PortableApps.comFormat"?
+A: http://portableapps.com/about/what_is_a_portable_app
+
+Q: How to install?
+A: You can install using the "PortableApps.com" Platform which comes with it's
+own Start Menu. Or you can do what i do and create a top-level directory called 
+"PortableApps" and put all your portable apps. there. If you do this.. 
+"PAF" apps. will auto-detect this directory for installations, upgrades, and 
+provide a better overall performance/functionality/organization. 
+
+In addition:
+With this setup.. you can create a "CommonFiles" folder in this directory for 
+Java Portable/Ghostscript Portable support :)
+
+Q: What is "Stealth" apps.?
+A: http://www.portablefreeware.com/faq.php#stealth
+
+Q: What is the difference between "PortableApps.comFormat" vs. ThinApp?
+A: "PAF" runs naturually on your computer as if it's been installed thus is
+able to use all of you computer's resources like graphics card, memory, etc.
+ThinApp is an encapsulated snapshot, which runs like a virtual machine using
+the specs. the application was built on which limits the performance and 
+can cause problems with accessing file/folders.
+
+Q: Any other useless nugget to share?
+A: Be careful with apps. claiming to be portable. A portable app. is only as
+good as the creator. I have found many apps. to not meet specifications when
+it comes to "stealth". Many creators do not test for trash left behind or
+do a shitty job of it. I know it's a pain in the butt, but you should always
+scan a new portable app., atleast once, to ensure it's truly "stealth". 
+After all, what's the point of using portable apps. if it's not stealth.
+
+Q: Why are you so anal about "Stealth"/"Portable" apps?
+A: Notice how fast your computer is when you first get it? That's because there
+aren't tons of apps. installed to bog down the OS. With installation comes
+trash, misplaced registry keys & folders that lead to errors, left over trash 
+from irresponsible uninstallers, etc... in time.. this all accumulates which
+lead to poor performance, slow boot time, random errors, and overall poor
+performance.
+
+In addition.. other perks: http://www.portablefreeware.com/faq.php#3

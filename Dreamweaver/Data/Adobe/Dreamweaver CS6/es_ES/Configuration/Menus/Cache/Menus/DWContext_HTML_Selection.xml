@@ -1,0 +1,34 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="Contraer selección" command="if (dw.getFocus(true) == 'html') {dw.htmlInspector.collapseSelectedCodeFragment(true);} else {dw.getDocumentDOM().collapseSelectedCodeFragment(true);}" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_CollapseSelectedCodeFragment" />
+<menuitem name="Contraer fuera de la selección" command="if (dw.getFocus(true) == 'html') {dw.htmlInspector.collapseSelectedCodeFragmentInverse(true);} else{dw.getDocumentDOM().collapseSelectedCodeFragmentInverse(true);}" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_CollapseSelectedCodeFragmentInverse" />
+<menuitem name="Expandir selección" command="if (dw.getFocus(true) == 'html') {dw.htmlInspector.expandSelectedCodeFragments();} else {dw.getDocumentDOM().expandSelectedCodeFragments();}" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_ExpandSelectedCodeFragments" />
+<menuitem name="Contraer etiqueta completa" command="if (dw.getFocus(true) == 'html') {dw.htmlInspector.collapseFullTag(true);} else {dw.getDocumentDOM().collapseFullTag(true);}" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_CollapseFullTag" />
+<menuitem name="Contraer fuera de la etiqueta completa" command="if (dw.getFocus(true) == 'html') {dw.htmlInspector.collapseFullTagInverse(true);} else {dw.getDocumentDOM().collapseFullTagInverse(true);}" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_CollapseFullTagInverse" />
+<menuitem name="Expandir todo" command="if (dw.getFocus(true) == 'html') {dw.htmlInspector.expandAllCodeFragments();} else {dw.getDocumentDOM().expandAllCodeFragments();}" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_ExpandAllCodeFragments" />
+<separator />
+<menuitem name="Aplicar comentario HTML" arguments="'HTMLComment'" file="Menus/MM/CommentCode.htm" id="DWContext_HTML_Selection_ApplyHTMLComment" />
+<menuitem name="Aplicar comentario /* */" arguments="'JSBlockComment'" file="Menus/MM/CommentCode.htm" id="DWContext_HTML_Selection_ApplyJSBlockComment" />
+<menuitem name="Aplicar comentario //"  arguments="'JSComment'" file="Menus/MM/CommentCode.htm" id="DWContext_HTML_Selection_ApplyJSComment" />
+<menuitem name="Aplicar comentario '"  arguments="'VBComment'" file="Menus/MM/CommentCode.htm" id="DWContext_HTML_Selection_ApplyVBComment" />
+<menuitem name="Aplicar comentario de servidor" enabled="false" file="Menus/MM/ServerComment.htm" id="DWContext_HTML_Selection_ApplyServerComment" />
+<menuitem name="Aplicar truco para marcar como comentario con barras diagonales inversas" command="dw.getDocumentDOM().source.applyComment('/*Start hiding from IE Mac \\*/\n', '/*Stop hiding from IE Mac */\n')" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_ApplyBackslashHack" />
+<menuitem name="Aplicar truco de Caio" command="dw.getDocumentDOM().source.applyComment('/*/*/\n', '/* */\n')" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_ApplyCaioHack" />
+<separator />
+<menuitem name="Quitar comentario" arguments="'Remove'" file="Menus/MM/CommentCode.htm"  id="DWContext_HTML_Selection_removeComment" />
+<menuitem name="Quitar truco para marcar como comentario con barras diagonales inversas" command="dw.getDocumentDOM().source.removeComment('/*Start hiding from IE Mac \\*/\n', '/*Stop hiding from IE Mac */\n')" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_RemoveBackslashHack" />
+<menuitem name="Quitar truco de Caio" command="dw.getDocumentDOM().source.removeComment('/*/*/\n', '/* */\n')" enabled="dw.getFocus(true) == 'textView' || dw.getFocus(true) == 'html'" domRequired="false" id="DWContext_HTML_Selection_RemoveCaioHack" />
+<separator />
+<menuitem name="Convertir tabulaciones en espacios" enabled="true" file="Menus/MM/HC_TabsToSpaces.htm" id="DWContext_HTML_Selection_TabsToSpaces" />
+<menuitem name="Convertir espacios en tabulaciones" enabled="true" file="Menus/MM/HC_SpacesToTabs.htm" id="DWContext_HTML_Selection_SpacesToTabs" />
+<menuitem name="_Sangría" arguments="'indent'" enabled="true" file="Menus/MM/HC_IndentOutdent.htm" id="DWContext_HTML_Selection_Indent" />
+<menuitem name="_Anular sangría" arguments="'outdent'" enabled="true" file="Menus/MM/HC_IndentOutdent.htm" id="DWContext_HTML_Selection_Outdent" />
+<separator />
+<menuitem name="Quitar todas las etiquetas" enabled="true" file="Menus/MM/HC_RemoveAllTags.htm" id="DWContext_HTML_Selection_RemoveAllTags" />
+<separator />
+<menuitem name="Convertir líneas en tabla" enabled="true" file="Menus/MM/HC_LinesToTable.htm" id="DWContext_HTML_Selection_LinesToTable" />
+<menuitem name="Añadir saltos de línea" enabled="true" file="Menus/MM/HC_AddLineBreak.htm" id="DWContext_HTML_Selection_AddLineBreak" />
+<separator />
+<menuitem name="Convertir en mayúsculas" arguments="'upperCase'" enabled="true" file="Menus/MM/HC_ChangeCase.htm" id="DWContext_HTML_Selection_ToUppercase" />
+<menuitem name="Convertir en minúsculas" arguments="'lowerCase'" enabled="true" file="Menus/MM/HC_ChangeCase.htm" id="DWContext_HTML_Selection_ToLowercase" />
+<menuitem name="Convertir etiquetas en mayúsculas" arguments="'tagToUpperCase'" enabled="true" file="Menus/MM/HC_ChangeTagCase.htm" id="DWContext_HTML_Selection_TagsToUppercase" />
+<menuitem name="Convertir etiquetas en minúsculas" arguments="'tagToLowerCase'" enabled="true" file="Menus/MM/HC_ChangeTagCase.htm" id="DWContext_HTML_Selection_TagsToLowercase" />

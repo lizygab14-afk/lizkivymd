@@ -1,0 +1,2 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Abrir como archivo independiente" arguments="'openAsTopDoc'" file="Menus/MM/Open_Document.htm" id="DWContext_RelatedFileTab_Open"  />

@@ -1,0 +1,5 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Obtener" key="Cmd+Shift+D" arguments="'get','document'" file="Menus/MM/Site_File.htm" id="DWPopup_DocumentState_Get" />
+<menuitem name="_Proteger" key="Cmd+Opt+Shift+D" arguments="'checkout','document'" file="Menus/MM/Site_File.htm" id="DWPopup_DocumentState_Checkout" />
+<menuitem name="_Colocar" key="Cmd+Shift+U" arguments="'put','document'" file="Menus/MM/Site_File.htm" id="DWPopup_DocumentState_Put" />
+<menuitem name="Despro_teger" key="Cmd+Opt+Shift+U" arguments="'checkin','document'" file="Menus/MM/Site_File.htm" id="DWPopup_DocumentState_Checkin" />

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="2.0" ExtensionBundleId="com.adobe.dwimsconnection" ExtensionBundleVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ExtensionList>
+		<Extension Id="com.adobe.dwimsconnection" Version="1.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="DRWV" Version="12.0" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="2.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.adobe.dwimsconnection">
+			<DispatchInfo >
+				<Resources>
+					<SwfPath>./DWIMSConnection.swf</SwfPath>
+					<ScriptPath>./DWIMSConnection.jsx</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Modeless</Type>
+					<Geometry>
+						<Size>
+							<Height>120</Height>
+							<Width>360</Width>
+						</Size>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

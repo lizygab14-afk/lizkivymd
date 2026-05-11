@@ -1,0 +1,10 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Ninguno" command="dw.getDocumentDOM().setTextFormat('')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == ''" id="DWContext_Text_Format_None" />
+<menuitem name="_Párrafo" command="dw.getDocumentDOM().setTextFormat('p')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == 'p'" id="DWContext_Text_Format_P" />
+<menuitem name="Encabezado _1" command="dw.getDocumentDOM().setTextFormat('h1')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == 'h1'" id="DWContext_Text_Format_H1" />
+<menuitem name="Encabezado _2" command="dw.getDocumentDOM().setTextFormat('h2')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == 'h2'" id="DWContext_Text_Format_H2" />
+<menuitem name="Encabezado _3" command="dw.getDocumentDOM().setTextFormat('h3')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == 'h3'" id="DWContext_Text_Format_H3" />
+<menuitem name="Encabezado _4" command="dw.getDocumentDOM().setTextFormat('h4')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == 'h4'" id="DWContext_Text_Format_H4" />
+<menuitem name="Encabezado _5" command="dw.getDocumentDOM().setTextFormat('h5')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == 'h5'" id="DWContext_Text_Format_H5" />
+<menuitem name="Encabezado _6" command="dw.getDocumentDOM().setTextFormat('h6')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == 'h6'" id="DWContext_Text_Format_H6" />
+<menuitem name="Texto p_reformateado" command="dw.getDocumentDOM().setTextFormat('pre')" enabled="true" checked="dw.getDocumentDOM().getTextFormat() == 'pre'" id="DWContext_Text_Format_PRE" />

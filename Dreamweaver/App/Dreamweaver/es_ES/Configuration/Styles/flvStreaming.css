@@ -1,0 +1,16 @@
+
+/* Spanish (Spain)/Configuration/Inspectors/flvStreaming.htm */
+#topLayer.cls_flvStreaming_div_topLayer {position: absolute;visibility: visible;left: 118px;top: 1px;width:530px;height: 38px;z-index: 30;}
+#bottomLayer.cls_flvStreaming_div_bottomLayer {position: absolute;left:33px;top: 53px;z-index: 22;width: 580px;height: 38px;margin-top: 3px;}
+#idBoxLayer.cls_flvStreaming_div_idBoxLayer {position: absolute;width: 99px;height: 38px;z-index: 1;left: 45px;top: 3px; }
+.cls_flvStreaming_input_videoWidth {width:35px}
+.cls_flvStreaming_div_FLVLoaderDiv {width:1px;height:1px;left: -5px;top: 0px}
+.cls_flvStreaming_input_videoID {width:65px}
+.cls_flvStreaming_input_videoServerURI {width:202px}
+.cls_flvStreaming_input_videoHeight {width:35px}
+.cls_flvStreaming_input_videoStream {width:202px}
+.cls_flvStreaming_input_videoBufferTime {width:45px}
+.cls_flvStreaming_select_videoSkinName {width: 204px}
+.cls_flvStreaming_td {white-space:normal}
+#topLayer.cls_flvStreaming_div_topLayer td {padding-bottom:0px}
+#bottomLayer.cls_flvStreaming_div_bottomLayer td {padding-bottom:0px}

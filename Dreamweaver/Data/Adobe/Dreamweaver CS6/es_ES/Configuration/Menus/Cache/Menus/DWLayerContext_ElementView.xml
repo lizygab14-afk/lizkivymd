@@ -1,0 +1,5 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Completa" command="dw.getDocumentDOM().setElementView('full')" enabled="dw.getDocumentDOM().getElementView() != 'normal'" checked="dw.getDocumentDOM().getElementView() == 'full'" id="DWLayerContext_ElementView_Full" />
+<menuitem name="_hidden" command="dw.getDocumentDOM().setElementView('hidden')" enabled="dw.getDocumentDOM().getElementView() != 'normal'" checked="dw.getDocumentDOM().getElementView() == 'hidden'" id="DWLayerContext_ElementView_Hidden" />
+<separator />
+<menuitem name="_Restablecer todas las vistas de elementos" command="dw.getDocumentDOM().resetAllElementViews()" id="DWLayerContext_ElementView_ResetAll" />

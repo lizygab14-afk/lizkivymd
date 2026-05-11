@@ -1,0 +1,9 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Ninguno" file="Menus/MM/Text_CustomStyles.htm" id="DWMenu_Text_CustomStyle_Default" dynamic="true" />
+<separator />
+<menuitem name="Aplicar _múltiples clases..." command="dw.cssStylePalette.invokeMultipleClassDialog()" enabled="dwscripts.canApplyStyle()" id="DWMenu_Text_CustomStyle_ApplyMultiple" />
+<menuitem name="_Nuevo..." command="dw.cssStylePalette.newStyle()" enabled="((dw.getFocus() == 'document' && dw.getDocumentDOM().getFocus() == 'body') || dw.getFocus() == 'textView' || dw.getFocus(true) == 'html') && dw.getDocumentDOM() != null && (dw.getDocumentDOM().getParseMode() == 'html' || dw.getDocumentDOM().getParseMode() == 'css')" id="DWMenu_Text_CustomStyle_NewStyleCustom" />
+<menuitem name="Ad_juntar hoja de estilos..." command="dw.cssStylePalette.attachStyleSheet()" enabled="dwscripts.canEditStyle()" id="DWMenu_Text_CustomStyle_AttachCustom" />
+<menuitem name="Con_vertir CSS en línea en regla..." command="dw.getDocumentDOM().convertInlineCssToRule()" enabled="dwscripts.canApplyStyle() && dw.getDocumentDOM().canConvertInlineCssToRule()" id="DWMenu_Text_CustomStyle_Convert" />
+<menuitem name="_Mover reglas CSS..." command="dw.getDocumentDOM().moveSelectedStyles()" enabled="(dw.getFocus() == 'textView' || dw.getFocus(true) == 'html') && dw.getDocumentDOM() != null && (dw.getDocumentDOM().getParseMode() == 'html'||dw.getDocumentDOM().getParseMode() == 'css') && dw.getDocumentDOM().canMoveSelectedStyles()" id="DWMenu_Text_CustomStyle_Move" />
+<menuitem name="_Tiempo de diseño..." file="Commands/Design Time Style Sheets.htm" id="DWMenu_Text_CustomStyle_IncludeExclude" />

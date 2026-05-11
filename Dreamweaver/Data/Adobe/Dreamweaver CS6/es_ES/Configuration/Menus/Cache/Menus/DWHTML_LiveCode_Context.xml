@@ -1,0 +1,12 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menu name="Selección" id="DWContext_HTML_LiveCode_Selection"></menu>
+<menuitem name="_Navegador de código..." key="Cmd+Opt+N" command="dw.popupCodeNavigator()" enabled="dw.canPopupCodeNavigator()" domRequired="FALSE" id="DWContext_HTML_LiveCode_CodeNavigator" />
+<separator />
+<menuitem name="_Buscar y reemplazar..." key="Cmd+F" command="dw.showFindReplaceDialog()" enabled="dw.getDocumentDOM() != null" domRequired="false" id="DWContext_HTML_LiveCode_Find_Replace" />
+<menuitem name="Buscar _selección" key="Shift+F3" command="dw.findNext(false)" enabled="(dw.getFocus(true) == 'html' || dw.getFocus() == 'textView') || (dw.getFocus() == 'document' && dw.getDocumentDOM().getFocus() != 'frameset' && dw.canFindNext())" platform="win" domRequired="false" id="DWContext_HTML_LiveCode_FindSelection" />
+<menuitem name="Buscar siguie_nte" key="F3" command="dw.findNext(true)" enabled="dw.getDocumentDOM() != null" platform="win" domRequired="false" id="DWContext_HTML_LiveCode_FindNext" />
+<separator />
+<menuitem name="Re_ferencia" key="Shift+F1" command="dw.updateReference()" enabled="true" domRequired="FALSE" id="DWContext_HTML_LiveCode_Help_Reference" />
+<separator />
+<menuitem name="C_opiar" command="dw.clipCopy()" enabled="dw.canClipCopy()" domRequired="FALSE" id="DWContext_HTML_LiveCode_Copy" />
+<menuitem name="Imprimir código" command="dw.printCode(true, dw.getDocumentDOM())" enabled="dw.getDocumentDOM() != null && dw.getFocus() != 'site' && (dw.getFocus()!='browser' || dw.getDocumentDOM().getDesignViewMode() == 'live')" domRequired="false" id="DWContext_HTML_LiveCode_Print" />

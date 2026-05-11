@@ -1,0 +1,6 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Reproducir pasos" command="dw.historyPalette.replaySteps(dw.historyPalette.getSelectedSteps())" enabled="dw.historyPalette.getSelectedSteps().length > 0" id="DWContext_History_Replay" />
+<menuitem name="_Copiar pasos" command="dw.historyPalette.copySteps(dw.historyPalette.getSelectedSteps())" enabled="dw.historyPalette.getSelectedSteps().length > 0" id="DWContext_History_Copy" />
+<menuitem name="_Guardar como comando..." command="dw.historyPalette.saveAsCommand(dw.historyPalette.getSelectedSteps())" enabled="dw.historyPalette.getSelectedSteps().length > 0" id="DWContext_History_SaveCommand" />
+<separator />
+<menuitem name="Borrar historia_l" command="dw.historyPalette.clearSteps()" enabled="dw.historyPalette.getStepCount() > 0" id="DWContext_History_Clear" />

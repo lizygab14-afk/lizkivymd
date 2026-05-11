@@ -1,0 +1,32 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menu name="_Formato de párrafo" id="DWContext_Text_Format"></menu>
+<menu name="_Lista" id="DWContext_Text_List"></menu>
+<menu name="Al_inear" id="DWContext_Text_Alignment"></menu>
+<menu name="Fuen_te" id="DWContext_Text_Font"></menu>
+<menu name="_Estilo" id="DWContext_Text_Style"></menu>
+<menu name="Estilos _CSS" id="DWContext_Text_CustomStyle"></menu>
+<menu name="Ta_maño" showif="(dw.getPreferenceString('General Preferences','Avoid Font Tags','TRUE') == 'FALSE')" id="DWContext_Text_Size"></menu>
+<separator />
+<menu name="_Plantillas" id="DWContext_Templates_1"></menu>
+<separator />
+<menu name="_InContext Editing" id="DWContext_InContext_Editing"></menu>
+<separator />
+<menu name="Vis_ta de elementos" id="DWContext_Text_ElementView"></menu>
+<separator />
+<menuitem name="_Navegador de código..." key="Cmd+Opt+N" command="dw.popupCodeNavigator()" enabled="dw.canPopupCodeNavigator()" domRequired="TRUE" id="DWContext_Text_CodeNavigator" />
+<menuitem name="_Editar etiqueta..." key="Shift+F5" file="Menus/MM/EditTag.htm" domRequired="FALSE" id="DWContext_Text_EditTag" />
+<menuitem name="Quick Tag _Editor..." file="Menus/MM/Context_QTE_Dynamic.htm" id="DWContext_Text_InsertHTML" dynamic="true" />
+<menuitem name="_Crear vínculo..." file="Menus/MM/Modify_Hyperlink.htm" id="DWContext_Text_MakeLink" />
+<menuitem name="_Quitar vínculo" command="dw.getDocumentDOM().removeLink()" enabled="dw.getDocumentDOM().getLinkHref().length > 0" id="DWContext_Text_RemoveLink" />
+<menuitem name="_Abrir página vinculada" arguments="'noFocus'" file="Menus/MM/Open_Linked_Page.htm" id="DWContext_Text_OpenLinkedPage" />
+<menu name="_Marco de destino" id="DWContext_Text_Target"></menu>
+<menuitem name="Agregar a c_olores favoritos" enabled="true" file="Menus/MM/Text_AddToFavorites.htm" id="DWContext_Text_AddToFavorites" />
+<menuitem name="_Crear nuevo fragmento" command="dw.snippetPalette.newSnippet()" enabled="true" id="DWContext_Text_NewSnippet" />
+<separator />
+<menuitem name="_Cortar" command="MM.event.notify('','dw.clipCut()')" enabled="dw.canClipCut()" id="DWContext_Text_Cut" />
+<menuitem name="C_opiar" command="MM.event.notify('','dw.clipCopy()')" enabled="dw.canClipCopy()" id="DWContext_Text_Copy" />
+<menuitem file="Menus/MM/Edit_Paste.htm" id="DWContext_Text_Paste" dynamic="true" />
+<menuitem name="Pegado e_special..." file="Menus/MM/Edit_PasteSpecial.htm" id="DWContext_Text_Paste_Special" />
+<separator />
+<menuitem name="Design _Notes para la página..." file="Menus/MM/Design Notes Launch.htm" id="DWContext_Text_DesignNotes" />
+<menuitem name="_Propiedades de la página..." command="dw.getDocumentDOM().showPagePropertiesDialog()" enabled="dw.getDocumentDOM() != null" id="DWContext_Text_PageProperties" />

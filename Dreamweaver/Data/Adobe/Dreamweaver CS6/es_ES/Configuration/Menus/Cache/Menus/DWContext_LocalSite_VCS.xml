@@ -1,0 +1,11 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="Obtener versiones más recientes" arguments="'vcs_update'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_Update" />
+<menuitem name="Actualizar estado" arguments="'vcs_updatestatus'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_UpdateStatus" />
+<menuitem name="Marcar como resuelto" arguments="'vcs_markasresolved'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_MarkAsResolved" />
+<menuitem name="Mostrar revisiones..." arguments="'vcs_showrevisions'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_ShowRevisions" />
+<menuitem name="Bloquear" arguments="'vcs_lock'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_Lock" />
+<menuitem name="Desbloquear" arguments="'vcs_unlock'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_Unlock" />
+<menuitem name="Desconectar" arguments="'vcs_gooffline'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_GoOffline" />
+<menuitem name="Limpiar" arguments="'vcs_cleanup'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_CleanUp" />
+<menuitem name="Realizar" arguments="'vcs_commit2'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_Commit" />
+<menuitem name="Descartar cambios" arguments="'vcs_revert2'" file="Menus/MM/Site_VCS.htm" id="DWContext_LocalSite_VCS_Revert" />

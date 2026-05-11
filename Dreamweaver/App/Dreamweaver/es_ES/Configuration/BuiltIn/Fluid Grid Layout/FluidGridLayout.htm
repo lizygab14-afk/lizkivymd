@@ -1,0 +1,112 @@
+
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documento sin título</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+/* Medios fluidos sencillos
+   Nota: Los medios fluidos exigen la eliminación de los atributos de altura y anchura de los medios del código HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 no admite max-width (anchura máxima), por lo que usa de manera predeterminada una anchura del 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Propiedades de cuadrícula fluida de Dreamweaver
+	----------------------------------
+	dw-num-cols-mobile:		dw-num-cols-mobile-value;
+	dw-num-cols-tablet:		dw-num-cols-tablet-value;
+	dw-num-cols-desktop:	dw-num-cols-desktop-value;
+	dw-gutter-percentage:	dw-gutter-percentage-value;
+	
+	Inspiración obtenida de "Responsive Web Design" de Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	y Golden Grid System de Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Diseño móvil: 480 px e inferior. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: dw-layout-width-mobile-value;
+	padding-left: dw-outer-gutter-mobile-value;
+	padding-right: dw-outer-gutter-mobile-value;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: dw-layout-width-tablet-value;
+	padding-left: dw-outer-gutter-tablet-value;
+	padding-right: dw-outer-gutter-tablet-value;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: dw-layout-width-desktop-value;
+	max-width: 1232px;
+	padding-left: dw-outer-gutter-desktop-value;
+	padding-right: dw-outer-gutter-desktop-value;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+</style>
+<!-- 
+Para obtener más información sobre los comentarios condicionales situados alrededor de las etiquetas html en la parte superior del archivo:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  
+Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.modernizr.com/):
+* inserte el vínculo del código js aquí
+* elimine el vínculo situado debajo para html5shiv
+* añada la clase "no-js" a las etiquetas html en la parte superior
+* también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+	<div class="gridContainer clearfix">
+		<div id="LayoutDiv1">Utilice el panel Insertar para obtener etiquetas div adicionales de diseño de cuadrícula fluida. Nota: Todas las etiquetas div de diseño deben insertarse directamente dentro de la etiqueta div 'gridContainer'. Actualmente no se admiten etiquetas div de diseño anidadas. </div>
+	</div>
+</body>
+</html>

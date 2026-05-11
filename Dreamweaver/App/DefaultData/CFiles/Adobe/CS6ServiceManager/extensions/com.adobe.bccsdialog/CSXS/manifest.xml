@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="2.0" ExtensionBundleId="com.adobe.bccsdialog" ExtensionBundleVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ExtensionList>
+		<Extension Id="com.adobe.bccsdialog" Version="1.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="DRWV" Version="[11.0,12.0]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="2.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.adobe.bccsdialog">
+			<DispatchInfo >
+				<Resources>
+					<SwfPath>./BCCSDialog.swf</SwfPath>
+					<ScriptPath>./BCCSDialog.jsx</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>ModalDialog</Type>
+					<Geometry>
+						<Size>
+							<Height>405</Height>
+							<Width>%DefWidth</Width>
+						</Size>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

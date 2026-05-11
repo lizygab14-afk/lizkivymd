@@ -1,0 +1,10 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Ninguno" key="Cmd+0" arguments="'None'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_DefaultText" />
+<menuitem name="_Párrafo" key="Cmd+Shift+P" arguments="'P'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_P" />
+<menuitem name="Encabezado _1" key="Cmd+1" arguments="'H1'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_H1" />
+<menuitem name="Encabezado _2" key="Cmd+2" arguments="'H2'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_H2" />
+<menuitem name="Encabezado _3" key="Cmd+3" arguments="'H3'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_H3" />
+<menuitem name="Encabezado _4" key="Cmd+4" arguments="'H4'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_H4" />
+<menuitem name="Encabezado _5" key="Cmd+5" arguments="'H5'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_H5" />
+<menuitem name="Encabezado _6" key="Cmd+6" arguments="'H6'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_H6" />
+<menuitem name="Texto p_reformateado" arguments="'PRE'" file="Menus/MM/Text_Format.htm" id="DWMenu_Text_Format_PRE" />

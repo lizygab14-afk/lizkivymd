@@ -1,0 +1,5 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="Predeterminado" command="dw.getDocumentDOM().setAttributeWithErrorChecking('VISIBILITY', '')" enabled="true" id="DWContext_Layer_Vis_Default" />
+<menuitem name="inherit" command="dw.getDocumentDOM().setAttributeWithErrorChecking('VISIBILITY', 'inherit')" enabled="true" id="DWContext_Layer_Vis_Inherit" />
+<menuitem name="visible" command="dw.getDocumentDOM().setAttributeWithErrorChecking('VISIBILITY', 'visible')" enabled="true" id="DWContext_Layer_Vis_Visible" />
+<menuitem name="hidden" command="dw.getDocumentDOM().setAttributeWithErrorChecking('VISIBILITY', 'hidden')" enabled="true" id="DWContext_Layer_Vis_Hidden" />

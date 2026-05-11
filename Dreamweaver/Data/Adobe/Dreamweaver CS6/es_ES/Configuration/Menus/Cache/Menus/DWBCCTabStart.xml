@@ -1,0 +1,4 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="_Comprobar compatibilidad con navegadores" command="dw.getDocumentDOM().runBCC('auto-explicit',false,true)" enabled="dw.getFocus() != 'browser' && dw.getDocumentDOM() != null && dw.getDocumentDOM().documentType != 'XML' && dw.getDocumentDOM().getParseMode() != 'css'" domRequired="TRUE" id="DWBCCTabStart_CurDocument" />
+<menuitem name="_Editar lista de problemas ignorados" command="dw.editBTCExceptions()" enabled="true" domRequired="FALSE" id="DWBCCTabStart_EditIgnoredIssues" />
+<menuitem name="_Configuración..." command="if (dw.showTargetBrowsersDialog() && dw.getDocumentDOM() && dw.getDocumentDOM().documentType != 'XML' && dw.getDocumentDOM().getParseMode() != 'css') dw.getDocumentDOM().runBCC('auto-explicit',true)" enabled="true" domRequired="FALSE" id="DWBCCTabStart_Settings" />
