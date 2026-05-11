@@ -1,6 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Reproducir" key="Cmd+Opt+P" command="dw.getDocumentDOM().playPlugin()" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().canPlayPlugin()" id="DWMenu_View_Plugins_Play" platform="win" />
-<menuitem name="_Detener" key="Cmd+Opt+X" command="dw.getDocumentDOM().stopPlugin()" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().canStopPlugin()" id="DWMenu_View_Plugins_Stop" platform="win" />
-<separator />
-<menuitem name="Reproducir _todo" key="Cmd+Opt+Shift+P" command="dw.getDocumentDOM().playAllPlugins()" enabled="dw.getFocus() == 'document' && dw.activeViewScale == 1.0" id="DWMenu_View_Plugins_PlayAll" platform="win" />
-<menuitem name="Dete_ner todo" key="Cmd+Opt+Shift+X" command="dw.getDocumentDOM().stopAllPlugins()" enabled="dw.getFocus() == 'document'" id="DWMenu_View_Plugins_StopAll" platform="win"/>

@@ -1,8 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Mostrar/ocultar vínculo" key="Cmd+Shift+Y" command="site.setLinkVisibility(!site.getLinkVisibility())" enabled="site.getFocus() == 'site map' && site.getSelection().length > 0" id="DWSitePseudoMenuView_ShowHideLinks" />
-<menuitem name="_Ver como raíz " key="Cmd+Shift+R" command="site.viewAsRoot()" enabled="site.canViewAsRoot()" id="DWSitePseudoMenuView_ViewAsRoot" />
-<separator />
-<menuitem name="Most_rar archivos marcados como ocultos" command="site.setShowHiddenFiles(!site.getShowHiddenFiles())" enabled="site.getFocus() == 'site map' && site.getCurrentSite() != ''" checked="site.getShowHiddenFiles()" id="DWSitePseudoMenuView_ShowHidden" />
-<menuitem name="Mostrar archivos de_pendientes" command="site.setShowDependents(!site.getShowDependents())" enabled="site.getFocus() == 'site map' && site.getCurrentSite() != ''" checked="site.getShowDependents()" id="DWSitePseudoMenuView_ShowDependents" />
-<menuitem name="Mostrar títulos _de páginas" key="Cmd+Shift+T" command="site.setShowPageTitles(!site.getShowPageTitles())" enabled="site.canShowPageTitles()" checked="site.getShowPageTitles()" id="DWSitePseudoMenuView_ShowTitles" />
-<menuitem name="Dis_eño..." command="site.setLayout()" enabled="site.canSetLayout()" id="DWSitePseudoMenuView_Layout" />

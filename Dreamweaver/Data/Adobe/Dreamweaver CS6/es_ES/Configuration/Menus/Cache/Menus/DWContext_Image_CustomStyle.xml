@@ -1,7 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="(ninguno)" file="Menus/MM/Text_CustomStyles.htm" id="DWContext_Image_CustomStyle_Default" dynamic="true" />
-<separator />
-<menuitem name="Aplicar _múltiples clases..." command="dw.cssStylePalette.invokeMultipleClassDialog()" enabled="dwscripts.canApplyStyle()" id="DWContext_Image_CustomStyle_ApplyMultiple" />
-<menuitem name="_Nuevo..." command="dw.cssStylePalette.newStyle()" enabled="dwscripts.canEditStyle()" id="DWContext_Image_CustomStyle_New" />
-<menuitem name="Ad_juntar hoja de estilos..." command="dw.cssStylePalette.attachStyleSheet()" enabled="dwscripts.canEditStyle()" id="DWContext_Image_CustomStyle_Attach" />
-<menuitem name="_Tiempo de diseño..." file="Commands/Design Time Style Sheets.htm" id="DWContext_Image_CustomStyle_IncludeExclude" />

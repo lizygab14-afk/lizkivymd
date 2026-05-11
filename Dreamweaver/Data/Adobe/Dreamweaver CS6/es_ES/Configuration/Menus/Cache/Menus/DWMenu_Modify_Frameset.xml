@@ -1,7 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Editar contenido sin marcos" command="dw.getDocumentDOM().setEditNoFramesContent(!dw.getDocumentDOM().getEditNoFramesContent())" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().canEditNoFramesContent()" checked="dw.getDocumentDOM() != null && dw.getDocumentDOM().getEditNoFramesContent()" id="DWMenu_Modify_Frameset_EditNoFrames" />
-<separator />
-<menuitem name="Dividir marco a la _izquierda" command="dw.getDocumentDOM().splitFrame('left')" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().canSplitFrame() &&  (dw.getDocumentDOM().getServerNameFromDoc() != 'XSLT')" id="DWMenu_Modify_Frameset_SplitLeft" />
-<menuitem name="Dividir marco a la _derecha" command="dw.getDocumentDOM().splitFrame('right')" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().canSplitFrame() && (dw.getDocumentDOM().getServerNameFromDoc() != 'XSLT')" id="DWMenu_Modify_Frameset_SplitRight" />
-<menuitem name="Dividir marco hacia _arriba" command="dw.getDocumentDOM().splitFrame('up')" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().canSplitFrame() && (dw.getDocumentDOM().getServerNameFromDoc() != 'XSLT')" id="DWMenu_Modify_Frameset_SplitUp" />
-<menuitem name="Dividir marco hacia a_bajo" command="dw.getDocumentDOM().splitFrame('down')" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().canSplitFrame() && (dw.getDocumentDOM().getServerNameFromDoc() != 'XSLT')" id="DWMenu_Modify_Frameset_SplitDown" />

@@ -1,2 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Ocultar todas las ayudas visuales" key="Cmd+Shift+I" command="dw.getActiveWindow().setHideAllVisualAids(!dw.getActiveWindow().getHideAllVisualAids())" enabled="dw.getActiveWindow() != null && dw.getActiveWindow().getFocus() != 'frameset' && (dw.getActiveWindow().getView() == 'split' || dw.getActiveWindow().getView() == 'design')" checked="dw.getActiveWindow() != null && dw.getActiveWindow().getHideAllVisualAids()" id="DWPopup_DesignVisualAids_HideAllVisualAids" />

@@ -1,5 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="No hay navegadores seleccionados" arguments="'No Browsers'" file="Menus/MM/PIB_Dynamic.htm" id="DWContext_LocalSite_PIB_Default" dynamic="true" />
-<menuitem id="DWContext_LocalSite_PIB_MeerMeer" arguments="'DWContext_LocalSite_PIB_MeerMeer'" name="Adobe BrowserLab" key="Cmd+Shift+F12" dynamic="true" file="Menus/MM/PreviewInBrowserLab.htm"/>
-<separator />
-<menuitem name="_Editar lista de navegadores..." command="dw.editBrowserList()" enabled="true" id="DWContext_LocalSite_PIB_EditBrowserList" />

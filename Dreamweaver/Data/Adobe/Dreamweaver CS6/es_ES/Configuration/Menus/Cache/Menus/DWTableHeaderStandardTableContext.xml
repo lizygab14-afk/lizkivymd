@@ -1,6 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Seleccionar tabla" enabled="true" id="DWContext_Table_Header_Standard_Select_Table" />
-<menuitem name="Borrar todos los _altos" command="dw.getDocumentDOM().removeAllTableHeights()" enabled="true" id="DWContext_Table_Header_Standard_ClearHeightAttributes" />
-<menuitem name="Borrar todos los a_nchos" command="dw.getDocumentDOM().removeAllTableWidths()" enabled="true" id="DWContext_Table_Header_Standard_ClearWidthAttributes" />
-<menuitem name="_Igualar todos los anchos" command="dw.getDocumentDOM().makeCellWidthsConsistent()" enabled="!dw.getDocumentDOM().areCellWidthsConsistent()" id="DWContext_Table_Header_Standard_MakeCellWidthsConsistent" />
-<menuitem name="_Ocultar anchos de tabla" command="dw.getDocumentDOM().setShowTableWidths(false)" enabled="true" id="DWContext_Table_Header_Standard_TableWidths" />

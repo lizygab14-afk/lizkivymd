@@ -1,7 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Abrir" file="Menus/MM/Primary_Editor_Dynamic.htm" id="DWContext_LocalSite_Open_Companion" />
-<menu name="_Abrir con" id="DWContext_LocalSite_OpenWith_Companion"></menu>
-<separator />
-<menuitem name="Localizar en servidor re_moto" arguments="'findremote','site'" file="Menus/MM/Site_File.htm" id="DWContext_LocalSite_FindRemote_Companion" />
-<separator />
-<menuitem name="Design _Notes..." file="Menus/MM/Design Notes Launch.htm" id="DWContext_LocalSite_DesignNotes_Companion" />

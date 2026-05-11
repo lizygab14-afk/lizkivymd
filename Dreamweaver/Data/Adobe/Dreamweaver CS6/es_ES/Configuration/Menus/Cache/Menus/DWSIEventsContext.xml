@@ -1,5 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="Editar comportamiento..." command="dw.selInspEvents.editSelectedBehavior();" enabled="dw.behaviorInspector.getSelectedBehavior() != -1" id="DWContext_SIEvents_EditBehavior" />
-<menuitem name="Eliminar comportamiento..." command="dw.selInspEvents.removeSelectedEvent();" enabled="dw.behaviorInspector.getSelectedBehavior() != -1" id="DWContext_SIEvents_RemoveBehavior" />
-<separator />
-<menuitem name="Añadir nuevo elemento de lista" command="dw.selInspEvents.addNewListItem();" enabled="dw.selInspEvents.canAddNewListItem();" id="DWContext_SIEvents_AddNewItem" />

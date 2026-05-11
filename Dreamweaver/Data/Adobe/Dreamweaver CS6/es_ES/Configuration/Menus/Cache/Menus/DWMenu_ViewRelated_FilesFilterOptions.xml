@@ -1,6 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="Mostr_ar todos los tipos de archivos" id="DWMenu_ViewRelated_FilesFilter_All" file="Menus/MM/RelatedFile_Filter_All.htm" dynamic="false" />
-<separator />
-<menuitem name="(No hay archivos relacionados)" id="DWMenu_ViewRelated_FilesFilter_Extensions" file="Menus/MM/RelatedFile_Filter_Extensions.htm" dynamic="true" />
-<separator />
-<menuitem name="Filtro _personalizado..." id="DWMenu_ViewRelated_FilesFilter_Custom" file="Menus/MM/RelatedFile_Filter_Custom.htm" />

@@ -1,8 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<shortcut name="Cerrar ventana" key="Cmd+F4" command="if (dw.getFocus() == 'document') { dw.closeDocument(dw.getDocumentDOM()) }" platform="win" id="DWShortcuts_Site_CloseWindow" />
-<shortcut name="Salir de la aplicación" key="Opt+F4" command="dw.quitApplication()" id="DWShortcuts_Site_Quit" />
-<shortcut name="Abrir" key="Return" arguments="'open','shortcutkey'" file="Menus/MM/Site_File.htm" id="DWShortcuts_Site_SiteOpen" />
-<shortcut name="Vista previa en navegador principal" key="F12" arguments="'primary'" file="Menus/MM/PIB_Dynamic.htm" platform="win" id="DWShortcuts_Site_PIBPrimary" />
-<shortcut name="Vista previa en navegador secundario" key="Shift+F12" arguments="'secondary'" file="Menus/MM/PIB_Dynamic.htm" id="DWShortcuts_Site_PIBSecondary" />
-<shortcut name="Vista previa en Device Central" key="Ctrl+Alt+F12" arguments="'devicecentral'" file="Menus/MM/PIB_Dynamic.htm" platform="win" id="DWShortcuts_Site_PIBDevice" />
-<shortcut name="Cancelar FTP" key="Esc" command="if (dw.getFocus() == 'site') { site.cancelFTPCommand() }" platform="win" id="DWShortcuts_Site_CancelFTP" />

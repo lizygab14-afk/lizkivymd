@@ -1,4 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Ninguno" file="Menus/MM/Rule_Tracker_CustomStyles.htm" id="DWContext_RuleTracker_CustomStyle_Default" dynamic="true" />
-<separator />
-<menuitem name="Aplicar _múltiples clases..." command="dw.cssStylePalette.invokeMultipleClassDialog()" enabled="dwscripts.canApplyStyle()" id="DWContext_RuleTracker_CustomStyle_ApplyMultiple" />

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StageManagerManifest Version="1.0">
-	<StageManager StageManagerVersion="3.0.0.20120309_v3_0_0_389">
-		<Release>./Release/StageManager-3.0.swf</Release>
-		<Debug>./Debug/StageManager-3.0.swf</Debug>
-	</StageManager>
-</StageManagerManifest>

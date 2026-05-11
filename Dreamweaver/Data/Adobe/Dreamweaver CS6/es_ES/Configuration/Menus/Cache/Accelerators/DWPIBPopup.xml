@@ -1,2 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem id="DWPopup_PIB_MeerMeer" arguments="'DWPopup_PIB_MeerMeer'" name="Vista previa en Adobe BrowserLab" key="Cmd+Shift+F12" argument="'DWPopup_PIB_MeerMeer'" dynamic="true" file="Menus/MM/PreviewInBrowserLab.htm"/>

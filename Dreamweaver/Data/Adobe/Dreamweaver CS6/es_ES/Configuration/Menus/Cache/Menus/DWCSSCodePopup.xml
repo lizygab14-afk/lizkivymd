@@ -1,3 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="Con_vertir CSS en línea en regla..." command="dw.getDocumentDOM().convertInlineCssToRule()" enabled="dwscripts.canApplyStyle() && dw.getDocumentDOM().canConvertInlineCssToRule()" id="DWPopup_CustomStyle_Convert" />
-<menuitem name="_Mover reglas CSS..." command="dw.getDocumentDOM().moveSelectedStyles()" enabled="(dw.getFocus() == 'textView' || dw.getFocus(true) == 'html') && dw.getDocumentDOM() != null && (dw.getDocumentDOM().getParseMode() == 'html'||dw.getDocumentDOM().getParseMode() == 'css') && dw.getDocumentDOM().canMoveSelectedStyles()" id="DWPopup_CustomStyle_Move" />

@@ -1,7 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Ninguno" arguments="'None'" file="Menus/MM/Text_List.htm" id="DWMenu_Text_List_DefaultList" />
-<menuitem name="Lista _sin ordenar" arguments="'UL'" file="Menus/MM/Text_List.htm" id="DWMenu_Text_List_UL" />
-<menuitem name="Lista _ordenada" arguments="'OL'" file="Menus/MM/Text_List.htm" id="DWMenu_Text_List_OL" />
-<menuitem name="Lista de _definición" arguments="'DL'" file="Menus/MM/Text_List.htm" id="DWMenu_Text_List_DL" />
-<separator />
-<menuitem name="_Propiedades..." command="dw.getDocumentDOM().showListPropertiesDialog()" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().getFocus() == 'body' && dw.getDocumentDOM().canShowListPropertiesDialog()" id="DWMenu_Text_List_PropertiesList" />

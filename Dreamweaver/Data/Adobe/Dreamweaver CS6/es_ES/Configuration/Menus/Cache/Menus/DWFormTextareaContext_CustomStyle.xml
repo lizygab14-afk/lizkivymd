@@ -1,8 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="(ninguno)" file="Menus/MM/Text_CustomStyles.htm" id="DWFormTextareaContext_CustomStyle_Default" dynamic="true" />
-<separator />
-<menuitem name="Aplicar _múltiples clases..." command="dw.cssStylePalette.invokeMultipleClassDialog()" enabled="dwscripts.canApplyStyle()" id="DWFormTextareaContext_CustomStyle_ApplyMultiple" />
-<menuitem name="_Nuevo..." command="dw.cssStylePalette.newStyle()" enabled="dwscripts.canEditStyle()" id="DWFormTextareaContext_CustomStyle_New" />
-<menuitem name="Ad_juntar hoja de estilos..." command="dw.cssStylePalette.attachStyleSheet()" enabled="dwscripts.canEditStyle()" id="DWFormTextareaContext_CustomStyle_Attach" />
-<menuitem name="Con_vertir CSS en línea en regla..." command="dw.getDocumentDOM().convertInlineCssToRule()" enabled="dwscripts.canApplyStyle() && dw.getDocumentDOM().canConvertInlineCssToRule()" id="DWFormTextareaContext_CustomStyle_Convert" />
-<menuitem name="_Tiempo de diseño..." file="Commands/Design Time Style Sheets.htm" id="DWFormTextareaContext_CustomStyle_IncludeExclude" />

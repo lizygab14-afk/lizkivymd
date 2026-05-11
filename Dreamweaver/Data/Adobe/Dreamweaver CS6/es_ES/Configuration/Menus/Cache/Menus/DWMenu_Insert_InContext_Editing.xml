@@ -1,3 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="Crear región editable" file="Menus/ICE/ICEEditableRegion.htm" id="DWMenu_Insert_InContext_Editing_NewEditableRegion" isobject="true" />
-<menuitem name="Crear región repetida" file="Menus/ICE/ICERepeatingRegion.htm" id="DWMenu_Insert_InContext_Editing_NewRepeatingRegion" isobject="true" />

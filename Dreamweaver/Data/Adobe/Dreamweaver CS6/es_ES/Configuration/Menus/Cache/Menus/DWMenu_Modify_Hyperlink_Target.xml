@@ -1,5 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="Destino _predeterminado" arguments="'DefaultTarget'" file="Menus/MM/Modify_FrameTargets.htm" id="DWMenu_Modify_Hyperlink_Target_DefaultTarget" />
-<separator />
-<menuitem name="No hay destinos estándar" file="Menus/MM/Modify_FrameTargets.htm" id="DWMenu_Modify_Hyperlink_Target_NoStandard" dynamic="true" />
-<menuitem name="Establecer..." command="dw.getDocumentDOM().setLinkTarget()" enabled="dw.getFocus() == 'document' && dw.getDocumentDOM().getLinkHref().length > 0" id="DWMenu_Modify_Hyperlink_Target_SetLink" />

@@ -1,3 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="Archivo_s/carpetas seleccionados" arguments="'selection'" file="Menus/MM/Site_CheckLinks.htm" id="DWContext_SiteMap_CheckLinks_Selection" />
-<menuitem name="Todo _el sitio" arguments="'site'" file="Menus/MM/Site_CheckLinks.htm" id="DWContext_SiteMap_CheckLinks_EntireSite" />

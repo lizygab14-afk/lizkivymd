@@ -1,7 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="Seleccion_ar todo" key="Cmd+A" command="site.selectAll()" enabled="site.getCurrentSite() != ''" id="DWContext_LocalSite_SelectAll" />
-<menuitem name="_Archivos protegidos" arguments="'selectcheckedout'" file="Menus/MM/Site_File.htm" id="DWContext_LocalSite_SelCheckedOutFiles" />
-<menuitem name="_Local más reciente" arguments="'selectnewer','local'" file="Menus/MM/Site_File.htm" id="DWContext_LocalSite_SelNewLocal" />
-<menuitem name="_Remoto más reciente" arguments="'selectnewer','remote'" file="Menus/MM/Site_File.htm" id="DWContext_LocalSite_SelNewRemote" />
-<menuitem name="Modificado _recientemente" enabled="true" file="Menus/MM/SelectRecentlyModified.html" id="DWContext_LocalSite_SelRecentlyModified" />
-<menuitem name="_Invertir selección" command="site.invertSelection()" enabled="dw.getFocus(true) == 'site' && site.getFocus() == 'site map' && site.getCurrentSite() != ''" id="DWContext_LocalSite_InvertSel" />

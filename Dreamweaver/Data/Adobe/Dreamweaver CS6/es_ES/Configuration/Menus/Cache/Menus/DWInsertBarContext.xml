@@ -1,3 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="Iconos de _colores" command="dw.setDisplayColorIcon(!dw.getDisplayColorIcon())" checked="dw.getDisplayColorIcon()" id="DWInsertBarContext_Default_ColorIcon" />
-<menuitem name="Personalizar favoritos..." command="dw.runCommand('Customize Favorites.htm');" enabled="true" domRequired="false" id="DWInsertBarContext_Default_CustomizeFavorite" />

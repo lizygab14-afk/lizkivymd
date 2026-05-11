@@ -1,3 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem id="DWMenu_PhoneGap_Build_Panel_win" name="Servicio PhoneGap Build" platform="win" key="Ctrl+Alt+B" enabled="true" command="dw.toggleFloater('PhoneGap Build Service')" />
-<menuitem id="DWMenu_PhoneGap_Build_Settings_win" name="Configuración de PhoneGap Build" platform="win" key="Ctrl+Alt+Shift+B" enabled="true" command="dw.toggleFloater('PhoneGap Build Service Settings')" />
